@@ -1,0 +1,73 @@
+{
+  "attribution": "Electricity prices from elprisetjustnu.se",
+  "chunks": [
+    {
+      "days_requested": 31,
+      "missing_days": [],
+      "time_end_anomalies": [
+        "2025-10-26T02:45:00+02:00"
+      ]
+    }
+  ],
+  "columns": [
+    "timestamp",
+    "price_eur_mwh",
+    "resolution",
+    "sek_per_kwh",
+    "eur_per_kwh",
+    "exr",
+    "time_start_local",
+    "time_end_local"
+  ],
+  "content_sha256": "b57f8c3d10bcc998a82201b635879afecb99fb667095b9b169def61879658329",
+  "data_end": "2025-10-31T22:45:00+00:00",
+  "data_sha256": "4aa9cc4a10518fc7c66acff837569223729d09130646ed57b50735dda4de99bd",
+  "data_start": "2025-09-30T22:00:00+00:00",
+  "dataset": "day_ahead_prices",
+  "endpoint": "https://www.elprisetjustnu.se/api/v1/prices/{year}/{month_day}_{zone}.json",
+  "git_dirty": true,
+  "git_sha": "36d53396942c0a5e56429decbdef7b2b8c4bb30c",
+  "key": "SE1",
+  "library_versions": {
+    "entsoe-py": "0.8.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "pandera": "0.33.1",
+    "pricefc": "0.1.0",
+    "pyarrow": "25.0.1",
+    "requests": "2.34.2"
+  },
+  "price_basis": "excl. VAT, surcharges and taxes",
+  "price_source": "elprisetjustnu",
+  "pulled_at": "2026-09-30T22:43:45+00:00",
+  "query": {
+    "first_day": "2025-10-01",
+    "last_day": "2025-10-31",
+    "url_template": "https://www.elprisetjustnu.se/api/v1/prices/{year}/{month_day}_{zone}.json",
+    "zone": "SE1"
+  },
+  "requested_end": "2025-10-31T23:00:00+00:00",
+  "requested_start": "2025-09-30T22:00:00+00:00",
+  "row_count": 2980,
+  "source": "elprisetjustnu",
+  "validation": {
+    "errors": [],
+    "n_errors": 0,
+    "n_warnings": 1,
+    "passed": true,
+    "stats": {
+      "end": "2025-10-31 22:45:00+00:00",
+      "resolution_counts": {
+        "PT15M": 2980
+      },
+      "rows": 2980,
+      "start": "2025-09-30 22:00:00+00:00"
+    },
+    "warnings": [
+      {
+        "check": "warning",
+        "message": "Column 'price_eur_mwh' failed element-wise validator number 3: greater_than_or_equal_to(0.0) failure cases: -23.97, -31.8, -39.28, -57.85, -44.22, -50.97, -68.21, -94.59, -92.88, -85.21, -68.58, -49.77, -54.52, -42.84, -35.85, -34.48, -34.43, -29.28, -25.72, -27.23, -34.38, -25.77, -27.09, -19.64, -10.58, -12.66, -8.05, -7.64, -0.01, -0.21, -0.27, -0.16, -0.24, -0.19, -0.23, -0.23, -0.22, -0.02, -0.24, -0.28, -0.27, -0.1, -2.33, -8.65"
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "source": "open_meteo",
+  "dataset": "forecast__ecmwf_ifs",
+  "key": "se1_lulea",
+  "endpoint": "https://api.open-meteo.com/v1/forecast",
+  "query": {
+    "latitude": 65.58,
+    "longitude": 22.15,
+    "hourly": "temperature_2m,wind_speed_10m,wind_speed_100m,wind_direction_100m,cloud_cover,shortwave_radiation,precipitation,snowfall",
+    "models": "ecmwf_ifs",
+    "timezone": "GMT",
+    "timeformat": "unixtime",
+    "wind_speed_unit": "ms",
+    "forecast_days": 3,
+    "past_days": 0,
+    "url": "https://api.open-meteo.com/v1/forecast"
+  },
+  "requested_start": "2026-09-30T00:00:00+00:00",
+  "requested_end": "2026-10-03T00:00:00+00:00",
+  "pulled_at": "2026-09-30T21:55:28+00:00",
+  "row_count": 72,
+  "columns": [
+    "timestamp",
+    "temperature_2m",
+    "wind_speed_10m",
+    "wind_speed_100m",
+    "wind_direction_100m",
+    "cloud_cover",
+    "shortwave_radiation",
+    "precipitation",
+    "snowfall"
+  ],
+  "data_start": "2026-09-30T00:00:00+00:00",
+  "data_end": "2026-10-02T23:00:00+00:00",
+  "content_sha256": "4e935b23b0429341712c333cb5bd447b0bf36cf9cda94f81eb3e493ba3cef8f6",
+  "data_sha256": "e5fc4061cda69f7e0a799b803ed788bac848766b43b5314def74c344b4f1e1ec",
+  "git_sha": "b5319e24dcf932a0feb4bedd1f82b22db27898e7",
+  "git_dirty": false,
+  "library_versions": {
+    "pricefc": "0.1.0",
+    "pandas": "3.0.6",
+    "pyarrow": "25.0.1",
+    "numpy": "2.5.3",
+    "requests": "2.34.2",
+    "entsoe-py": "0.8.1",
+    "pandera": "0.33.1"
+  },
+  "validation": {
+    "passed": true,
+    "n_errors": 0,
+    "n_warnings": 0,
+    "errors": [],
+    "warnings": [],
+    "stats": {
+      "rows": 72,
+      "start": "2026-09-30 00:00:00+00:00",
+      "end": "2026-10-02 23:00:00+00:00"
+    }
+  },
+  "chunks": [
+    {
+      "latitude": 65.553604,
+      "longitude": 22.244318,
+      "elevation": 6.0,
+      "generationtime_ms": 0.9833574295043945,
+      "utc_offset_seconds": 0
+    }
+  ],
+  "location": {
+    "name": "se1_lulea",
+    "lat": 65.58,
+    "lon": 22.15,
+    "role": "demand"
+  },
+  "weather_source": "open-meteo:forecast:ecmwf_ifs",
+  "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)"
+}

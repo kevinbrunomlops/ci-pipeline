@@ -1,0 +1,104 @@
+[
+  {
+    "path": "data/raw/open_meteo/previous_runs__ecmwf_ifs/se1_lulea/pulled_at=2026-09-30T21-50-27Z",
+    "valid": true,
+    "rows": 8712,
+    "data_sha256": "b35409c8dc38fa8d92711150106e62280ee86c522094e9f0a6ae46447e3f278e"
+  },
+  {
+    "path": "data/raw/open_meteo/previous_runs__ecmwf_ifs/se1_kiruna/pulled_at=2026-09-30T21-51-11Z",
+    "valid": false,
+    "rows": 8712,
+    "data_sha256": "fec5cbf7142b618d75b0856e05efe550f8665d0312756b8dbec97279fa551439"
+  },
+  {
+    "path": "data/raw/open_meteo/previous_runs__ecmwf_ifs/se1_markbygden/pulled_at=2026-09-30T21-51-58Z",
+    "valid": true,
+    "rows": 8712,
+    "data_sha256": "ef78e867697387060f3fbc457282b90afd759b6e6b55cfd0ec5b697a8da15f8f"
+  },
+  {
+    "path": "data/raw/open_meteo/previous_runs__ecmwf_ifs/se2_sundsvall/pulled_at=2026-09-30T21-52-19Z",
+    "valid": true,
+    "rows": 8712,
+    "data_sha256": "2e1e39b85f6b4267be3812ca003142a47bedee31f1a34bcef10f03d2ac9c2a28"
+  },
+  {
+    "path": "data/raw/open_meteo/previous_runs__ecmwf_ifs/se2_umea/pulled_at=2026-09-30T21-52-44Z",
+    "valid": false,
+    "rows": 8712,
+    "data_sha256": "1f2b1b8da50ad54ae67429640cee16e919aac6ea2ab845fc1060504d1cfe84b9"
+  },
+  {
+    "path": "data/raw/open_meteo/previous_runs__ecmwf_ifs/se2_ostersund/pulled_at=2026-09-30T21-53-25Z",
+    "valid": true,
+    "rows": 8712,
+    "data_sha256": "bbf713330158d17b29b7a4a80e294248e9e0266fb72f9af6401092935c546410"
+  },
+  {
+    "path": "data/raw/open_meteo/previous_runs__ecmwf_ifs/se2_hudiksvall/pulled_at=2026-09-30T21-53-49Z",
+    "valid": true,
+    "rows": 8712,
+    "data_sha256": "2d2a87a1438b8b8f451a19740d3a0d1677642f98de02c4cc8784af6378241a47"
+  },
+  {
+    "path": "data/raw/open_meteo/previous_runs__ecmwf_ifs/se3_stockholm/pulled_at=2026-09-30T21-53-51Z",
+    "valid": true,
+    "rows": 8712,
+    "data_sha256": "eb9522881863df94edafc348d6f60ce402bb316119ac456b6b1ab56475ff3616"
+  },
+  {
+    "path": "data/raw/open_meteo/previous_runs__ecmwf_ifs/se3_gothenburg/pulled_at=2026-09-30T21-53-53Z",
+    "valid": true,
+    "rows": 8712,
+    "data_sha256": "dbd5f90392123f2e3e7917d98911eac188d688539deb849879e7ce4345d739c1"
+  },
+  {
+    "path": "data/raw/open_meteo/previous_runs__ecmwf_ifs/se3_orebro/pulled_at=2026-09-30T21-53-55Z",
+    "valid": true,
+    "rows": 8712,
+    "data_sha256": "557bc926b7c81a49ebcef2a34c9cd9646397de8ba2d756b8464ee9fe48c62f30"
+  },
+  {
+    "path": "data/raw/open_meteo/previous_runs__ecmwf_ifs/se3_gavle/pulled_at=2026-09-30T21-53-57Z",
+    "valid": true,
+    "rows": 8712,
+    "data_sha256": "7a3710f213d36318809ceb814b05f09c8379c25c3bf5c6598780e26f12bdabe6"
+  },
+  {
+    "path": "data/raw/open_meteo/previous_runs__ecmwf_ifs/se3_vanern/pulled_at=2026-09-30T21-53-59Z",
+    "valid": true,
+    "rows": 8712,
+    "data_sha256": "df719719c2c3cb076932c98e98668bcbce0551d1f55339733ef9f0dbce032d47"
+  },
+  {
+    "path": "data/raw/open_meteo/previous_runs__ecmwf_ifs/se4_malmo/pulled_at=2026-09-30T21-54-10Z",
+    "valid": true,
+    "rows": 8712,
+    "data_sha256": "082b601a79f8d0dda77202738bb1337023c746daf6f120dc938c72b6acecf0b5"
+  },
+  {
+    "path": "data/raw/open_meteo/previous_runs__ecmwf_ifs/se4_karlshamn/pulled_at=2026-09-30T21-54-30Z",
+    "valid": true,
+    "rows": 8712,
+    "data_sha256": "c2329b48bb9deca9ce937442c15d0dd9c9e61b4812f96e38783378cc5f786c4c"
+  },
+  {
+    "path": "data/raw/open_meteo/previous_runs__ecmwf_ifs/se4_kriegers_flak/pulled_at=2026-09-30T21-54-54Z",
+    "valid": true,
+    "rows": 8712,
+    "data_sha256": "a0bb9ece3abe0bdd43f2d39190a792e0192999036182da605f05c04a71599e8a"
+  },
+  {
+    "path": "data/raw/open_meteo/previous_runs__ecmwf_ifs/dk_lolland/pulled_at=2026-09-30T21-55-13Z",
+    "valid": true,
+    "rows": 8712,
+    "data_sha256": "0ce63dc13f7962bdad5c4c848f9bb0d032331b31be8b18604e7a3ee60a25c557"
+  },
+  {
+    "path": "data/raw/open_meteo/previous_runs__ecmwf_ifs/de_husum/pulled_at=2026-09-30T21-55-25Z",
+    "valid": true,
+    "rows": 8712,
+    "data_sha256": "db238e39af1d4f6b3cf6ffc54825e4de3cb9c1e143e1d0e9efa9458da36ffbed"
+  }
+]

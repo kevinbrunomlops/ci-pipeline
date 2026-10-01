@@ -1,0 +1,19 @@
+{
+  "dataset": "day_ahead_prices",
+  "passed": true,
+  "errors": [],
+  "warnings": [
+    {
+      "check": "warning",
+      "message": "Column 'price_eur_mwh' failed element-wise validator number 3: greater_than_or_equal_to(0.0) failure cases: -0.23, -0.26, -0.25, -0.27, -0.25, -0.31, -0.32, -0.44, -0.43, -0.44, -0.44, -0.45, -0.44, -0.44, -0.71, -0.54, -0.56, -0.42, -0.44, -0.42, -0.33, -0.22, -0.17, -0.21, -0.24, -0.32, -0.32, -0.3, -0.2, -0.32, -0.26, -0.29, -0.29, -0.28, -0.01"
+    }
+  ],
+  "stats": {
+    "rows": 2880,
+    "start": "2026-08-31 22:00:00+00:00",
+    "end": "2026-09-30 21:45:00+00:00",
+    "resolution_counts": {
+      "PT15M": 2880
+    }
+  }
+}

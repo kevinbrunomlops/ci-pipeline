@@ -1,0 +1,1418 @@
+[
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-46-31Z",
+    "valid": false,
+    "rows": 719,
+    "data_sha256": "e4a2db22a7d71649ce82f5333953c604f7e46b63014c898ec1df16027a2dc1e2"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-46-46Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "3624a285ba0332ca0016dddaba9c8aa95ba954963abf3efc005f3cfd85297bae"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-47-02Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "67d3b91ee9fd07281861b7cc42bacf24647d55e91a870d99c17c664379e29d60"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-47-16Z",
+    "valid": true,
+    "rows": 672,
+    "data_sha256": "ec27cda1340d561d39e6c2f93854446a6db9edee6e3f3c9f176c9c0cbdfd998c"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-47-32Z",
+    "valid": true,
+    "rows": 743,
+    "data_sha256": "d76b95fe00bc3e039378dc386dc2026a455b63dee6ae7f1617feb83dac957967"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-47-47Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "aaeee0bb55fa9c31dec54a005157c5b936ab09b1a5315d4a815d09312f5c3d99"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-48-02Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "bb2e04e28f94abb26263a1664c07de1f5443bd0fe59cc2db1c93e07ca4e98c64"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-48-17Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "a2f98b4839d86b129bb2fbfe552b4c5ff2979f2c66ac9dcd27087885e2ec6960"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-48-33Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "c3b10d1f678fc53e041d4659c55ae0a916f676439571aa5218b49911ffb886b4"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-48-49Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "2c23927ce29e04ecaf8383e3eabb5d0e0c0c2e5edad7257a40bbfa464d5c5295"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-49-04Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "e19ed0ace7e2972b2e58ea4d198aaddf63eb8884035667f8dc5c815ca4fc144f"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-49-19Z",
+    "valid": true,
+    "rows": 745,
+    "data_sha256": "38acd392a4d88b65a4c0f9e56a275ecd465e8ccc4387975a943d8d53606dd454"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-49-35Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "94764f8c83e2ce11208260ba59d673406647b6f60169be4d45daa6412dd37d9b"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-49-50Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "79f1fbc66296cc861d67c4de2f24a3422c5cb0b78d0aa50d8f5e5d0b6e0fc231"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-50-06Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "88319faab7a41dd4978893a70554120c833a3aecc696d07754a229938938593a"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-50-20Z",
+    "valid": true,
+    "rows": 672,
+    "data_sha256": "ba7fcbd87ba962e5adeb69deae5466a4078d0d73ee44a613b0133ae9e9cb1bb5"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-50-36Z",
+    "valid": true,
+    "rows": 743,
+    "data_sha256": "08ac40f4d33654b48c992bad650c911501768ff15f2e5ae7285f16a4801d8338"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-50-51Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "4eb6675a03b3b19f985cddaa139d13db3430a3bceb0899b6b527b1f2fe97d9e4"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-51-06Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "7ed03c5b116d1b82609d10aef6df4571db87362fe1f874d7255610e2658cf0d9"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-51-21Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "77b80c6fd2de04f78163a4e3c90e0c7d349183111b8cd4b3e5f6cad16394b222"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-51-37Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "cee309e9d80aec473df5633f5886b5fac88d8e4141bc1e49179f3e4c66b00bc2"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-51-53Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "809aa65563d7374d0dd608371dee2c83928cf683b42e399201351f5d2cf2b952"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-52-08Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "8190a9f8420bf1440fe315d69b1b342f630b34866e3135484f6771d0db7930a2"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-52-23Z",
+    "valid": true,
+    "rows": 745,
+    "data_sha256": "4a9e63fa4c6b96793f445088dba81a86ddca84bc49a5af69370872bbb69fc53c"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-52-39Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "0e15a37d7116c0890144af9c4a955ce8b2c78bae7f6959bd3550b6421d572c1d"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-52-54Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "1a50a0d931dc0ddca2b589db8aaeed846195a676253a474960c51227ed5c21da"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-53-10Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "e7798f0be954d2224c6f7b85aeaa00c0c31f1258075d43fd5d425736ecca410a"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-53-24Z",
+    "valid": true,
+    "rows": 696,
+    "data_sha256": "cefad71ecf419b9f10df01e57a5376a2573bd618db32c0f5c4c7b44df5daf0aa"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-53-40Z",
+    "valid": true,
+    "rows": 743,
+    "data_sha256": "0637a86ba2a9b30be8ec459f2a6253efac3925bb62fc21fe19dc9fc507ed5346"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-53-55Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "e66279ce8475e29cdb5392f3fbc3a4e50cea5788227b8eaf8f20325d7602259c"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-54-11Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "a3b3b44bafcf298730ea583bb3f671837c522842755c80a5d8b977bd222a46c3"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-54-26Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "7e9b5a43ee5b4a5859632acb39fc8f0954fa1e474b25bd4c04cb3462fa596a9d"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-54-42Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "838fa6d47b782777612c570c382f02f94d0db33d07fa94b893277a353a936331"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-54-57Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "8bf2eb55f4a28bdc13b4a89a888d05f906f4a7ae96d3f8a60c10254a663c65bd"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-55-12Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "76e69c2f50d9a39d907e4d69ccf0a065df014c4c161ac57db38b8b7a47b73a7c"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-55-28Z",
+    "valid": true,
+    "rows": 745,
+    "data_sha256": "0ec36eea32e25b768a1d769d0739cb5afccca8588a5d56bab661aa2a3292cb13"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-55-43Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "a744640cc6d3cc54ab3eb134c091fc544f80bfa1be43fc05136e75a485850fb4"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-55-59Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "26ef24ea42eed382cf60a90e76550caa42527284f48a6c59ddbb5e1cb295048d"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-56-14Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "50840431f9e1118dc10567671d50d63510454c50eb91b3fa5333fc12d1524392"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-56-28Z",
+    "valid": true,
+    "rows": 672,
+    "data_sha256": "592b859b0dda0a2472ea5248492838775037f8fec5d188e7f18c757de5b2330b"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-56-44Z",
+    "valid": true,
+    "rows": 743,
+    "data_sha256": "2e6c66942c4d7bcfa83df90ca5f6e8e7c51960612d3e0f20617a1ce9cb07b233"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-56-59Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "fd876ec9dbeacab7c999d2cc8f24689988d60d83d17876942a45455e904fb290"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-57-15Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "4c97e542dbc1f2afeea015743d27d2019a2b286d2ef61d056c337254a7ae0fd6"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-57-30Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "4e1cdd59ac53b033f5d9c5e6ef3ccb1651d7f99adbd20ea65deddb8adb3d2ad1"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-57-46Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "25261ab89f1723a70b8599407f7ab8e4d6a23e80b0f8860574d662915a2071fb"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-58-01Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "2ea1603a41ebb58c880ffc37a7b05ef0351e26910772855ff4a7f872253f23aa"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-58-16Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "8cb9e9d7401d455063f76e312de3a83c5741faab113c48b27a0367880e84dc4b"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-58-32Z",
+    "valid": true,
+    "rows": 2980,
+    "data_sha256": "987f894d6dc3fa0f6b409e052b49741fe4884d23fb37b3b22de91667c39e9168"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-58-47Z",
+    "valid": true,
+    "rows": 2880,
+    "data_sha256": "48f5d5867184f895808d0c7c5e49267d49034cc085192ef264b3988861ca6971"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-59-03Z",
+    "valid": true,
+    "rows": 2976,
+    "data_sha256": "10890c782a5db28709092b97223b73f9810c9292a308454ab940f1f017b99609"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-59-18Z",
+    "valid": true,
+    "rows": 2976,
+    "data_sha256": "d7dc4adb981b94b6475664438aa6b9def3fdc15c7d9a045eee35e6d5bf756374"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-59-32Z",
+    "valid": true,
+    "rows": 2688,
+    "data_sha256": "cc6ec9b655314fffb39afe04897020e34919a8556b7735dfea224520dbf921b7"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T21-59-48Z",
+    "valid": true,
+    "rows": 2972,
+    "data_sha256": "d736bf923e8212186d8fb8213233e78c74b41c450daf8ee9b9dc3e7800d19655"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T22-00-03Z",
+    "valid": true,
+    "rows": 2880,
+    "data_sha256": "4e3b024d6892c3bc000aa2f3c1125a371b38a2848eae782ff7615024daf20953"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T22-00-19Z",
+    "valid": true,
+    "rows": 2976,
+    "data_sha256": "8aff78644730219dda15b139ece24d7db74f96de6dc27dfe64a4bdaf1f59edff"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T22-00-34Z",
+    "valid": true,
+    "rows": 2880,
+    "data_sha256": "b1d630cb083fe083f23fd00b5310f27d6f1d186016379711db1a00ec1c693289"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T22-00-50Z",
+    "valid": true,
+    "rows": 2976,
+    "data_sha256": "63ca57b4786ca1f4aff66da659b1b0bfcdd43c3b6ba48c873a9bfec88a6a30d3"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T22-01-05Z",
+    "valid": true,
+    "rows": 2976,
+    "data_sha256": "d157cb61883b291d2df0788317eab55eedac5745aae35b77393b4317d6cac684"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE3/pulled_at=2026-09-30T22-01-20Z",
+    "valid": true,
+    "rows": 2880,
+    "data_sha256": "da6c3d4827081d73b8f885434d982006a42acb690cd625d897286f5a0d3fbb4f"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-01-35Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "035c55f3b9bd6eda2c82610c5665ad32b0f73438c5069b6c6487a628f0c14d33"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-01-51Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "15285bc655a9c5843e9b9a895f741eb1a348a6da3a70e7df0a0e5469941a8521"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-02-07Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "8ce63554bdb2ea764fb2402c888d590eea0c748fe2990924a303a4d34e2ce9c1"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-02-21Z",
+    "valid": true,
+    "rows": 672,
+    "data_sha256": "e6bd308035db5073e37002635c19f4a648b0a1b73ead68d9d95c10e32f2142bc"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-02-36Z",
+    "valid": true,
+    "rows": 743,
+    "data_sha256": "01395f8cda384a5827307c21eb5b8e27a74c010a663c1c8bce18bf4650302325"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-02-52Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "14d836c0fa15f7482cff01d5867ab398ecca6ee446ee87d9c45086aa01b1e7fa"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-03-07Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "e718b3a2492d63bbbf182a872bb5f85dcd8c4697dd370a878d9ccf8a3dab6e91"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-03-22Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "6fdd9ea7d2afa695c8c04a968878e2100a48475a9f4b9c58cf647591502bed95"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-03-38Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "5c7e1c92fb1dfd7522f9dd1c2c655ac8e928395ebe47662a3b1f402a4d3e1415"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-03-53Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "61ecb3a8a8f0c395c01ba01013d79f480775eedd1327ac41dac64d9f7da1faa9"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-04-09Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "ea7043d0690b34addf3bef03c330268cf3e02ccec6564163d411662a839322a6"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-04-24Z",
+    "valid": true,
+    "rows": 745,
+    "data_sha256": "89fe7c75e40bf0b867c3eb1d6f105f0ae7880b158d4ea08eb5793f5166b85b4d"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-04-39Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "ba3b70cc624eda5bba06b8126658750f17a365e77f4a49fd8a111357bc2a4b34"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-04-55Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "80e7bcf563715fb010881db2926e94dbbcba40df7dcbe61e3825d8a3099f9479"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-05-10Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "9633240ad9643c950f679946e6c0875de96445d65c4e4446b827b226d3fa5cd1"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-05-25Z",
+    "valid": true,
+    "rows": 672,
+    "data_sha256": "ee334931d6440a750748f090ba32a85066c090c3f1570a077d8cadd1561496cb"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-05-40Z",
+    "valid": true,
+    "rows": 743,
+    "data_sha256": "3d36b8c15deb29d10e0a03c7da27382a41c33487843b72fe0e0c565ed0f4bd83"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-05-55Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "cd7fc92fa0d7775e01ccdfbf69242c0cd6431dee5846bc15ee2d31b3e67053d5"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-06-11Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "ac685db92ba291ddd49f1f3dfb1adce1757e0e4f3022a204128a1c3f60c96e62"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-06-26Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "7112a3c6838327e7843882a7016ff182221baa7c2e2c35d21a4d6db1c8c73772"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-06-42Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "954d2399ebf584a759afed884e289dc6365947354fdebd0d29990f7c0e8b4009"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-06-57Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "5e5876efef46310bc55253d350a04a647aa85e2213418633a46947812a543bd7"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-07-12Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "72c76406316de7209bd0a4bc9b995be93718082667d3888404ac5e1bccada7c0"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-07-28Z",
+    "valid": true,
+    "rows": 745,
+    "data_sha256": "bbc7b93ec45d14d27023cbdee82fdeaa039695b2bf1f90f471971eded01d52eb"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-07-43Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "6540dd110b3cc859f391eb1b4696f36657f59cadea0e6be0ba10f4aee3053823"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-07-59Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "8f93c81297c518fd88fb253170eec2f23273ddd69965d577367ca980a2fa4afc"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-08-14Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "5fca9fd7b1dd9dc48c2e40f63b1d60ed74b81064d2142b843b981a5f3381c917"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-08-29Z",
+    "valid": true,
+    "rows": 696,
+    "data_sha256": "9983510acc92f39a932508f28a735b1edf8ee7ebd85fe7bee2ff9ea365bfc607"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-08-45Z",
+    "valid": true,
+    "rows": 743,
+    "data_sha256": "a61b3cc0cee678cf23281a1e2b65800dbc46571801e0ffec5e2ee844b66c2508"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-09-00Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "955a19ffa5c9f836028f283779ae3f62bd21dbe65bf2962af2b1eca4e7b8f3aa"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-09-15Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "f32933b24d0ead2bd47ce7ee88dd97c8f7569b477e7c29593eb57136693c923b"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-09-30Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "8560ec30b1e6ab63ed3affec1984cb7f219ccddbb4da78e657d11331dc862841"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-09-46Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "6febc6909048b85fcb4aa586bebcf3edf09643b8cb121eb316375cf65cab9230"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-10-02Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "adc5129ac6ee755a499746408b2e99ad62d1fb378a2b47ce0e5353ad2ab0adf9"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-10-17Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "637fce987f7ceef581beabe44dc53268ed8470a34cb60532793524a628dbf409"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-10-32Z",
+    "valid": true,
+    "rows": 745,
+    "data_sha256": "8155522ebf0984c239fdf8ac6d6d883bf7cc71e3393835a908fc3b9999cfbb94"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-10-48Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "fc81472ebf449eb6fc61ada95f555d622b86ec4005a6b183f93c4ffba3e2e04b"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-11-03Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "3395a0fa00191bcae38e98f31d5037948e636879fb59340b3e89010c999507ca"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-11-19Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "1390b2a450d96021084a660904d911ba327898eda9c4f3c4b7dbbe375ef6f696"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-11-33Z",
+    "valid": true,
+    "rows": 672,
+    "data_sha256": "276df05ca8ae39ad2c66096ec2d41014c7997768816b4f847906105114814d18"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-11-48Z",
+    "valid": true,
+    "rows": 743,
+    "data_sha256": "e70db6fb0f0c70c40d275446b67dbfaa61abec3c416749ec41ab59602a52fd85"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-12-04Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "2f8464376da641543acc428ac5ac44927a5e53dd6ae14331d4613fb851e16b19"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-12-19Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "e6195a5c7fe426df134022fdba6a330bf4039513bd25bf8b6e015754def866fd"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-12-34Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "f177a636bc9d1fcb01162b66f7ad6d039eeacbf55bbfa6b14b3c9e6c3077cb33"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-12-50Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "8fab3a6d55a9807e4a2001183da3c4a1e5bd7d2205c86bb02d53f92d74cae42f"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-13-05Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "bc196373ffe9cebc8987dc9c4a4305ef762be37371501e69013b53ce15551ed0"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-13-21Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "5b8f252ed86467e8e903c8e564ffed8705541df9743fa9b8fddb6e6e458aa244"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-13-36Z",
+    "valid": true,
+    "rows": 2980,
+    "data_sha256": "78da77dc6b0b7b0eb4ebec691b2b3fb13f3739354384523317d8f76ab98e1726"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-13-51Z",
+    "valid": true,
+    "rows": 2880,
+    "data_sha256": "c67f5c4aa6389e6c51f23903197711d098fbd45c329234571bded47f953870fb"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-14-07Z",
+    "valid": true,
+    "rows": 2976,
+    "data_sha256": "3c066c69d254e0c1e04ac97fe785de78ed859fc7ee4745f92de20cc262543bfc"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-14-22Z",
+    "valid": true,
+    "rows": 2976,
+    "data_sha256": "d65ce45f6b1ed810377c856f44c1c3e08e42ca3f71030d1802de63204675eee3"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-14-37Z",
+    "valid": true,
+    "rows": 2688,
+    "data_sha256": "0f2cdec75f6bbcdd5a77bbf1976af707a765eb86283bb5f4e9b110560e76e415"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-14-52Z",
+    "valid": true,
+    "rows": 2972,
+    "data_sha256": "5bd2cbe2fb0a7cf27b3093060c6d0051af9300c7df3b51f6e67425f2fc3e16b3"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-15-07Z",
+    "valid": true,
+    "rows": 2880,
+    "data_sha256": "7d84ed254e315bb5f107fad19daf1d07d48453a0a7028ab3cc088348d150cb43"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-15-23Z",
+    "valid": true,
+    "rows": 2976,
+    "data_sha256": "52b195bcb746686c2939b49ec79e17aec4b5df80425bbcaff71199157a11046a"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-15-38Z",
+    "valid": true,
+    "rows": 2880,
+    "data_sha256": "b1eeeaef48e85d5de3136cc84772616a4e444c8f291773c9b81dcec1ffce9676"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-15-54Z",
+    "valid": true,
+    "rows": 2976,
+    "data_sha256": "cca778da5e33167ad9e07b1680bf936a3395f848b217786b77b093fddfd1e16b"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-16-09Z",
+    "valid": true,
+    "rows": 2976,
+    "data_sha256": "7db787399650d50cda09c4bc1de32a7e5018835c53158c74256acd6a75fadddd"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE4/pulled_at=2026-09-30T22-16-24Z",
+    "valid": true,
+    "rows": 2880,
+    "data_sha256": "35ba65b7e6b756b0bd9238bc36ad39ed147493e89510dc33513b2f03a2b09443"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-16-40Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "58e04f5d380ee7531f11403263d6f4f47743d0fe92fd1af0360a082acc93ac2c"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-16-55Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "fc307ef334a3087eb4e570509c0754a3afba228de688f7618f72044ea6db56b3"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-17-11Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "ee436ba347daf44d357841d2baac636d82515157f7ba68431a71bb1829694454"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-17-25Z",
+    "valid": true,
+    "rows": 672,
+    "data_sha256": "7156a1661ed7b3102644dadcf7e64ebe3479aa08bdd4525c99775ec5b6045c58"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-17-40Z",
+    "valid": true,
+    "rows": 743,
+    "data_sha256": "f988ebb55d746c63b5159254d1486c1898e773a2d95c2085a35d6963ca5b2c73"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-17-56Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "f9222e8d91879ebace211f3ed0116b717ec0e69f3473b5eb8a1b61e5586ce369"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-18-11Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "1764b3d597496d48dd120b965c6c17f13b6848850fbede2b5d79955728034f18"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-18-26Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "e037f965615d4183e6912f367a95ddff12643d7d1abaaba3985ef91690da23d9"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-18-42Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "b85daa7415d68a0233d5251705d38148850718ee48d3f645aa32d7d88c5a6e58"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-18-58Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "06832600e45e73ee790071555f7ef7a91b0f9195e78c6ce47603bab4099b3b7f"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-19-13Z",
+    "valid": false,
+    "rows": 717,
+    "data_sha256": "0c2b11074cf277caeb632854b1d2921f446cf70dc6a8c37a3442c3e4e86d63ca"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-19-28Z",
+    "valid": false,
+    "rows": 744,
+    "data_sha256": "85c33db9f0f2307371456a67406f0c1b6bca24d104ad5c739e13a5425faad8c3"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-19-44Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "742c8903cbc601b8663e375d6a4037f17df58ae8f8b7c0fbb32df33b6cfc131b"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-19-59Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "fb9ace1eed618c9f478e78012ade654e5de03e75fc81c1e63c01808a63263f77"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-20-15Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "a4d91134fc138f046e43c193fc2b648012f672c54e6a8ccf0def8cb0c4070ef9"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-20-29Z",
+    "valid": true,
+    "rows": 672,
+    "data_sha256": "84aa1eadc923e0c551d0866b1e5a56979fc7adf74a1d93b74f11cd54eeb06149"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-20-45Z",
+    "valid": true,
+    "rows": 743,
+    "data_sha256": "6cf5d0afdcd48423946f902611ffc98853617d72117278eb871a7a3147ccff62"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-21-00Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "f9defcd5077b4ce4037efd4fd84ddbc0e37585774ef1bcb78f89114c8760bd9d"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-21-15Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "863894308b3c7bfa57151422742d301b3e079d60b230b193245a5038ca909776"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-21-30Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "e1f56e752226d12845a004195c97f6827c747b18f08284ebbd3a43514aa593da"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-21-46Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "e2a4c43faa1253a5b96f98dc7db63c075ff4123c4f9fc35bbb8913ffcfd1eba1"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-22-02Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "19967d5385d78a92b2bbff6a271fd305c17d214bed8739b6c1ab1c7315911a48"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-22-17Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "994372332e8efc0867aba04f58d30a514b3d4ea24dc4400ebe8cd3befe914e9b"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-22-32Z",
+    "valid": true,
+    "rows": 745,
+    "data_sha256": "9c7fa12ede23a8baf02d8e1ad46b560a62da1fc5e79678ce0dc6d70350f17795"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-22-47Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "b0b60b7c3fd41e9c4d650a02a952d7e8cac8f3ef162e50392c54d9978af91d01"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-23-03Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "088bc04a941a8d7180927b1a667d1a48d55b1e0bbdf3234a84100d66ea148606"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-23-19Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "c5cd576e54d7f14cdaf986644cb3798baf58f5d16deade4e8967f841499659a0"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-23-33Z",
+    "valid": true,
+    "rows": 696,
+    "data_sha256": "9aa55eba0abe9171ac959798c71c2a80f4a029bd4225eec249fce91b625dc634"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-23-49Z",
+    "valid": true,
+    "rows": 743,
+    "data_sha256": "c10230cca5038710b806f75049d540d6f40742268afd2b481e9f1d7bea878840"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-24-04Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "2e180220d305c2f0cc2ddacd11e7ae602b4f24429ec9876dc996aa220c3cf98f"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-24-20Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "f4f771ea1dd8b2ea4058d46eb33a5a4b290779aad6e900538e1f9b4aa35da163"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-24-35Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "de45c22c52f303d9eb0278f7380ade8124d3eef7326669a1cf949b1015dce779"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-24-50Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "2204266f2c5711b45a3cfdda6df47cf2846a2afe51ba7921752f1caa8e7ad5e5"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-25-06Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "9f4d4144378e8773d3b0def70905cc41914c9578690432c543e718560bcf3116"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-25-21Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "2e9a96585dce0a35e3ef6f46fc7e4b942e319ea436c7d38e70d80f919f307aa6"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-25-37Z",
+    "valid": true,
+    "rows": 745,
+    "data_sha256": "c273ed329cdcbf351363424f285f8352eb3644ac7d29b30819d4471755cd311f"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-25-52Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "68f1dc6fb01634d9d105099ed6a5484e2586b73a21552196f2d80694e648d1bb"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-26-08Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "0b7a6e47888ed41263542b166dc081feb8abaff7977872957042cc3a1add48b7"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-26-23Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "dafa20f421c3393122038ea4c29eb43c42f9b3ee1eae42af82f59e14b635f1fa"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-26-37Z",
+    "valid": true,
+    "rows": 672,
+    "data_sha256": "1a8148846669d8e5c538f25ec421121e369fff11f8ca5cab17079fd4f1721a20"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-26-53Z",
+    "valid": true,
+    "rows": 743,
+    "data_sha256": "bd297dab9d8859d417f5a9a88d260a319656f2e090b817bc912ba60d4f2983e1"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-27-08Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "d76f5c8fa453e86d1816a7b890b7b2da64d25fee00107eed67c5f58e0f6415cb"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-27-24Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "ae8138994f6f70546d86dddde31c96a51437082e325b3f6fe52339d9407d86e4"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-27-39Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "f1c7f863f60eaa717c80c8f92864197f9fc748aeac685d113b3a049b41356797"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-27-54Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "d58034e246b5ad2d2ea400a6271841a9b571745f4bd77660881cadfeef382bcb"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-28-10Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "634b192af64a45cb2c17a68c5e998f3edd0e29ce0db77e7a5484484726aa46eb"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-28-25Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "fefbdedd2c5ea5450920b4c06d06c8d4014198e5b66508fc3149fe36c4470424"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-28-41Z",
+    "valid": true,
+    "rows": 2980,
+    "data_sha256": "2b26af16c0344b0e953cfbca3e79546647bbae522f1ef0214e2305bc0f5c335b"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-28-56Z",
+    "valid": true,
+    "rows": 2880,
+    "data_sha256": "871bfd7e7c2bd8ab63d6ef80e66420d746c3dd8fca291e56ef5a4056dcb1cc16"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-29-11Z",
+    "valid": true,
+    "rows": 2976,
+    "data_sha256": "92e636b3a82042c68a519b325b36fe50503c2e546926f07b4e3ba398b3ac687b"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-29-27Z",
+    "valid": true,
+    "rows": 2976,
+    "data_sha256": "1dd044e9c03d5952511a60b0fc0df612a55baf025ef5eaf9891c3da0e41bc3be"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-29-41Z",
+    "valid": true,
+    "rows": 2688,
+    "data_sha256": "2165b4ad129bc0ceb47856fade5d9fe0b006dfac208aedce8d9d1a9a104cab7c"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-29-57Z",
+    "valid": true,
+    "rows": 2972,
+    "data_sha256": "c62fc272f7e061d9569a4f850c2d90e5703a0508e748b9bda2cbf0ddf3175a66"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-30-12Z",
+    "valid": true,
+    "rows": 2880,
+    "data_sha256": "bc5226534a51557fe7b49b0b9249deb26ebe4780745983b906a2f3d8f8934663"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-30-27Z",
+    "valid": true,
+    "rows": 2976,
+    "data_sha256": "0e6575d806a351ced562ca47cef5dcf0bad4370bc4122de6cc6422f35fbb2dd2"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-30-42Z",
+    "valid": true,
+    "rows": 2880,
+    "data_sha256": "5c2a21db8d7aad275bbfd7477d0f06d49a288c4efc895836a70d9e8f779e71ac"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-30-58Z",
+    "valid": true,
+    "rows": 2976,
+    "data_sha256": "96bd736c87f6aacb272a95b038279c7353cfea063471815c482260d1048e1b99"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-31-14Z",
+    "valid": true,
+    "rows": 2976,
+    "data_sha256": "b7158f21c6366124b497d1f8826c793b46c13eb4c7230fb3e5021f1dd42268e3"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE2/pulled_at=2026-09-30T22-31-29Z",
+    "valid": true,
+    "rows": 2880,
+    "data_sha256": "790f371449e4e779ec7469c554abe6380abb0551b22cf818642825dcbae0a3b0"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-31-44Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "58e04f5d380ee7531f11403263d6f4f47743d0fe92fd1af0360a082acc93ac2c"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-32-00Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "fc307ef334a3087eb4e570509c0754a3afba228de688f7618f72044ea6db56b3"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-32-15Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "ee436ba347daf44d357841d2baac636d82515157f7ba68431a71bb1829694454"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-32-29Z",
+    "valid": true,
+    "rows": 672,
+    "data_sha256": "7156a1661ed7b3102644dadcf7e64ebe3479aa08bdd4525c99775ec5b6045c58"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-32-45Z",
+    "valid": true,
+    "rows": 743,
+    "data_sha256": "f988ebb55d746c63b5159254d1486c1898e773a2d95c2085a35d6963ca5b2c73"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-33-00Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "680d09606a7aac03c632a39cc40aeb4ebb5f6c35dab3e3dac30220ada437a946"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-33-16Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "1764b3d597496d48dd120b965c6c17f13b6848850fbede2b5d79955728034f18"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-33-31Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "e037f965615d4183e6912f367a95ddff12643d7d1abaaba3985ef91690da23d9"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-33-46Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "b85daa7415d68a0233d5251705d38148850718ee48d3f645aa32d7d88c5a6e58"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-34-02Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "e7640453a08ca6c1c3e7b3807dee44ffb3126b6bc1be287aa4331e66c56108fe"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-34-17Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "56d98ab639ee56c0b72c90abc48fab31e0b560bb7935271fc18c83e6fcd3efa6"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-34-33Z",
+    "valid": true,
+    "rows": 745,
+    "data_sha256": "ff4aa8fc769574e40c23ee18d1b6c9907fc5158dd75954a3b0060be9bb8b0b9f"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-34-48Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "dbbdf4339e91384096876a0719de4b24503e6c69c54247a6a62e6700f5d1486d"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-35-03Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "c76cf99cfe11c82c86f18da599e016c9012bc7446dea0b524953624e9e735dea"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-35-19Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "a4d91134fc138f046e43c193fc2b648012f672c54e6a8ccf0def8cb0c4070ef9"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-35-33Z",
+    "valid": true,
+    "rows": 672,
+    "data_sha256": "c3462f0c47c953765c4325eea1f547850193b4e9c83a861d8f7491e44e8ce91d"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-35-49Z",
+    "valid": true,
+    "rows": 743,
+    "data_sha256": "40234566a0f688b9f7c68e80b43d7c1c5f99275c2486c23a5eb2103594b796cb"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-36-04Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "f9defcd5077b4ce4037efd4fd84ddbc0e37585774ef1bcb78f89114c8760bd9d"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-36-20Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "a70d6d90a916aabde2924f6c0f0ac6000e5e9329b6a04364feae2d08e33135dc"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-36-35Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "e1f56e752226d12845a004195c97f6827c747b18f08284ebbd3a43514aa593da"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-36-50Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "34ca3dbf4c7b02b42ea2cfa25c9f5ecc4717cdbda7cc8681174b78f4641ce186"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-37-06Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "19967d5385d78a92b2bbff6a271fd305c17d214bed8739b6c1ab1c7315911a48"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-37-21Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "994372332e8efc0867aba04f58d30a514b3d4ea24dc4400ebe8cd3befe914e9b"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-37-37Z",
+    "valid": true,
+    "rows": 745,
+    "data_sha256": "9c7fa12ede23a8baf02d8e1ad46b560a62da1fc5e79678ce0dc6d70350f17795"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-37-52Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "b0b60b7c3fd41e9c4d650a02a952d7e8cac8f3ef162e50392c54d9978af91d01"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-38-08Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "088bc04a941a8d7180927b1a667d1a48d55b1e0bbdf3234a84100d66ea148606"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-38-23Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "46a922af59ec64d408a77f7f272c3e769c81f3291cc0f5e6aed935caa51b30d4"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-38-38Z",
+    "valid": true,
+    "rows": 696,
+    "data_sha256": "ef27b95634e052d3615e8fec8c50f3ed15a660ab69c4a697e4a8279b8d5cd8cd"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-38-53Z",
+    "valid": true,
+    "rows": 743,
+    "data_sha256": "c10230cca5038710b806f75049d540d6f40742268afd2b481e9f1d7bea878840"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-39-09Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "a6a58d623f2d61e2f7995f9bb88c2d2c4d41fda2b2a92ec2f45eabc70c99103c"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-39-24Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "f4f771ea1dd8b2ea4058d46eb33a5a4b290779aad6e900538e1f9b4aa35da163"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-39-39Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "de45c22c52f303d9eb0278f7380ade8124d3eef7326669a1cf949b1015dce779"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-39-55Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "c02e462447e8ed81516511a6f3cc0f0ad8dcab86b8e1767b16f6097e55deb5eb"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-40-11Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "f30e5affaaa8207b41aa2346430711e3e2c7cf8c51eee0e5b2585164ac975664"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-40-26Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "b2aff6757f8d74f7b6657cef418380434c75df0ffdf1bb4460ff94bcda4dc56c"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-40-41Z",
+    "valid": true,
+    "rows": 745,
+    "data_sha256": "1381acf8ed736da29fbb6f2c8a57ff749ba1d88f565b14b743987c7fac71c5de"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-40-57Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "c0f4ad2203ea605904e0b0f670d121fbb6c3134b6b26284db8eab91d641a8fe2"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-41-12Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "5cf92357aef93bf633d2ff61132c103ef9d6b1a7eada0e85820abe9e3aba367a"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-41-28Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "66a59168fc2ff45b095f75ab233d7dd4c07af07cba2aca5dce20eb3bbf552dc9"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-41-42Z",
+    "valid": true,
+    "rows": 672,
+    "data_sha256": "b6ced0d3071009715d4a1b03e2b4c2c5da91d7ff2b888f8e112221aed8ea2a86"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-41-58Z",
+    "valid": true,
+    "rows": 743,
+    "data_sha256": "95e879af69de9c5e64750c4e371f6fde0dcc23e7a2cc69c643beb1e1d5d42abe"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-42-13Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "2607a5fe71f77f2d41d3dd537a44d11ab1e8669033edbe4992e66ddcb1fba734"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-42-28Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "fdb847a6c771cbfdb99697a6631c21f137ac22ce3651d5e62e31ffa36a5b79fc"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-42-43Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "43f881066d235d6b18f9804964b823f4c6068c368347a697c2c119da827bfcc3"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-42-59Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "19bc3687bc6a03c4b9555ed3b49b1f8e186ead87b6371b4b22ba4cf3fcd4e85e"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-43-15Z",
+    "valid": true,
+    "rows": 744,
+    "data_sha256": "4126199201d55a77922d81ba3545393c7debe15dea95824eafe36e0f128079d2"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-43-30Z",
+    "valid": true,
+    "rows": 720,
+    "data_sha256": "9392e6d4b96f2340f24904e88460d2434a4e900761c45e21265304b0304a1c8c"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-43-45Z",
+    "valid": true,
+    "rows": 2980,
+    "data_sha256": "4aa9cc4a10518fc7c66acff837569223729d09130646ed57b50735dda4de99bd"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-44-01Z",
+    "valid": true,
+    "rows": 2880,
+    "data_sha256": "ed266fdb6cf72e2d7806e54d23f5a0846032a51e06b0bfd34f525fe79df637e3"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-44-16Z",
+    "valid": true,
+    "rows": 2976,
+    "data_sha256": "50a1333fb10f5ab133a6e469bd71abc882d80969aa0517b6e64e065abe13e075"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-44-32Z",
+    "valid": true,
+    "rows": 2976,
+    "data_sha256": "b2ce05b3f3dade02133b2b987a522645a2f15ff9c03d0e538e81a109b552dd16"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-44-46Z",
+    "valid": true,
+    "rows": 2688,
+    "data_sha256": "8654bdc3f51c3deee3de33fac6cdb5301f676b8ff25cb31dda48a462fa17b4f9"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-45-02Z",
+    "valid": true,
+    "rows": 2972,
+    "data_sha256": "26b424888732d0a53bd738d1c5ffb06365f3b5983ec62fc64a01a65073313e84"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-45-17Z",
+    "valid": true,
+    "rows": 2880,
+    "data_sha256": "b3ec5369d9a998f9e30dc4b931a23afb44207519e329d11ac51c15d5aa385948"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-45-32Z",
+    "valid": true,
+    "rows": 2976,
+    "data_sha256": "59694fdf160d0b02509c0d2e97d38094cf5905ff9c291e292f977c8fb63a3d9e"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-45-47Z",
+    "valid": true,
+    "rows": 2880,
+    "data_sha256": "e9cdac5e8f1b5d2479ee505d7400ae3cbb8950ab137b37ca078018e62c6fd7dc"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-46-03Z",
+    "valid": true,
+    "rows": 2976,
+    "data_sha256": "6b142fb311651eaf8dba22f02632f753370657a0a1bc8ef3f71c059793e66b30"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-46-19Z",
+    "valid": true,
+    "rows": 2976,
+    "data_sha256": "4bb1e16cc0c7fc39f383b59727461d4d7298258a45862cdf0a3b33008136ba9f"
+  },
+  {
+    "path": "data/raw/elprisetjustnu/day_ahead_prices/SE1/pulled_at=2026-09-30T22-46-34Z",
+    "valid": true,
+    "rows": 2880,
+    "data_sha256": "e85192f242e36fdfe1bbfd6d6349bbb4a2d9eeb65f664cbc8d05191261c691c3"
+  }
+]

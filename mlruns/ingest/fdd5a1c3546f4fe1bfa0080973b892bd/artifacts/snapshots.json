@@ -1,0 +1,44 @@
+[
+  {
+    "path": "data/raw/open_meteo/previous_runs__ecmwf_ifs/se1_lulea/pulled_at=2026-09-30T21-56-20Z",
+    "valid": true,
+    "rows": 8712,
+    "data_sha256": "b35409c8dc38fa8d92711150106e62280ee86c522094e9f0a6ae46447e3f278e"
+  },
+  {
+    "path": "data/raw/open_meteo/previous_runs__ecmwf_ifs/se1_kiruna/pulled_at=2026-09-30T21-56-22Z",
+    "valid": true,
+    "rows": 8712,
+    "data_sha256": "fec5cbf7142b618d75b0856e05efe550f8665d0312756b8dbec97279fa551439"
+  },
+  {
+    "path": "data/raw/open_meteo/previous_runs__ecmwf_ifs/se1_markbygden/pulled_at=2026-09-30T21-56-24Z",
+    "valid": true,
+    "rows": 8712,
+    "data_sha256": "ef78e867697387060f3fbc457282b90afd759b6e6b55cfd0ec5b697a8da15f8f"
+  },
+  {
+    "path": "data/raw/open_meteo/previous_runs__ecmwf_ifs/se2_sundsvall/pulled_at=2026-09-30T21-56-26Z",
+    "valid": true,
+    "rows": 8712,
+    "data_sha256": "2e1e39b85f6b4267be3812ca003142a47bedee31f1a34bcef10f03d2ac9c2a28"
+  },
+  {
+    "path": "data/raw/open_meteo/previous_runs__ecmwf_ifs/se2_umea/pulled_at=2026-09-30T21-56-28Z",
+    "valid": true,
+    "rows": 8712,
+    "data_sha256": "1f2b1b8da50ad54ae67429640cee16e919aac6ea2ab845fc1060504d1cfe84b9"
+  },
+  {
+    "path": "data/raw/open_meteo/previous_runs__ecmwf_ifs/se2_ostersund/pulled_at=2026-09-30T21-56-30Z",
+    "valid": true,
+    "rows": 8712,
+    "data_sha256": "bbf713330158d17b29b7a4a80e294248e9e0266fb72f9af6401092935c546410"
+  },
+  {
+    "path": "data/raw/open_meteo/previous_runs__ecmwf_ifs/se2_hudiksvall/pulled_at=2026-09-30T21-56-32Z",
+    "valid": true,
+    "rows": 8712,
+    "data_sha256": "2d2a87a1438b8b8f451a19740d3a0d1677642f98de02c4cc8784af6378241a47"
+  }
+]

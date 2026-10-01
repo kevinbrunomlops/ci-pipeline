@@ -1,0 +1,11 @@
+{
+  "dataset": "historical_forecast__ecmwf_ifs",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "rows": 50352,
+    "start": "2021-01-01 00:00:00+00:00",
+    "end": "2026-09-29 23:00:00+00:00"
+  }
+}

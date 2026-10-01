@@ -1,0 +1,71 @@
+{
+  "attribution": "Electricity prices from elprisetjustnu.se",
+  "chunks": [
+    {
+      "days_requested": 30,
+      "missing_days": [],
+      "time_end_anomalies": []
+    }
+  ],
+  "columns": [
+    "timestamp",
+    "price_eur_mwh",
+    "resolution",
+    "sek_per_kwh",
+    "eur_per_kwh",
+    "exr",
+    "time_start_local",
+    "time_end_local"
+  ],
+  "content_sha256": "a24db493a183346b5b8ca67dbf3ddc9651e8aa7bf41d00de4425a240a74699e3",
+  "data_end": "2025-06-30T21:00:00+00:00",
+  "data_sha256": "f1c7f863f60eaa717c80c8f92864197f9fc748aeac685d113b3a049b41356797",
+  "data_start": "2025-05-31T22:00:00+00:00",
+  "dataset": "day_ahead_prices",
+  "endpoint": "https://www.elprisetjustnu.se/api/v1/prices/{year}/{month_day}_{zone}.json",
+  "git_dirty": false,
+  "git_sha": "36d53396942c0a5e56429decbdef7b2b8c4bb30c",
+  "key": "SE2",
+  "library_versions": {
+    "entsoe-py": "0.8.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "pandera": "0.33.1",
+    "pricefc": "0.1.0",
+    "pyarrow": "25.0.1",
+    "requests": "2.34.2"
+  },
+  "price_basis": "excl. VAT, surcharges and taxes",
+  "price_source": "elprisetjustnu",
+  "pulled_at": "2026-09-30T22:27:39+00:00",
+  "query": {
+    "first_day": "2025-06-01",
+    "last_day": "2025-06-30",
+    "url_template": "https://www.elprisetjustnu.se/api/v1/prices/{year}/{month_day}_{zone}.json",
+    "zone": "SE2"
+  },
+  "requested_end": "2025-06-30T22:00:00+00:00",
+  "requested_start": "2025-05-31T22:00:00+00:00",
+  "row_count": 720,
+  "source": "elprisetjustnu",
+  "validation": {
+    "errors": [],
+    "n_errors": 0,
+    "n_warnings": 1,
+    "passed": true,
+    "stats": {
+      "end": "2025-06-30 21:00:00+00:00",
+      "resolution_counts": {
+        "PT60M": 720
+      },
+      "rows": 720,
+      "start": "2025-05-31 22:00:00+00:00"
+    },
+    "warnings": [
+      {
+        "check": "warning",
+        "message": "Column 'price_eur_mwh' failed element-wise validator number 3: greater_than_or_equal_to(0.0) failure cases: -0.39, -2.06, -3.6, -5.35, -5.37, -2.11, -0.22, -0.22, -0.2, -0.23, -0.15, -0.57, -0.68, -0.48, -0.01, -0.26, -1.54, -1.72, -1.71, -1.94, -1.85, -2.0, -0.47, -0.09, -0.01, -1.02, -0.55, -0.01, -0.68, -5.35, -15.4, -20.74, -22.63, -3.55, -0.02, -1.31, -6.07, -3.59, -0.57, -0.07, -0.12, -0.32, -1.82, -2.12, -2.38, -1.96, -1.55, -2.35, -5.71, -6.75, -6.29, -2.8, -0.01, -0.01, -0.01, -2.0, -2."
+      }
+    ]
+  }
+}

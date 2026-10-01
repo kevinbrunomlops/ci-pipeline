@@ -1,0 +1,71 @@
+{
+  "source": "elprisetjustnu",
+  "dataset": "day_ahead_prices",
+  "key": "SE1",
+  "endpoint": "https://www.elprisetjustnu.se/api/v1/prices/{year}/{month_day}_{zone}.json",
+  "query": {
+    "zone": "SE1",
+    "first_day": "2026-09-01",
+    "last_day": "2026-09-30",
+    "url_template": "https://www.elprisetjustnu.se/api/v1/prices/{year}/{month_day}_{zone}.json"
+  },
+  "requested_start": "2026-08-31T22:00:00+00:00",
+  "requested_end": "2026-09-30T22:00:00+00:00",
+  "pulled_at": "2026-09-30T22:46:34+00:00",
+  "row_count": 2880,
+  "columns": [
+    "timestamp",
+    "price_eur_mwh",
+    "resolution",
+    "sek_per_kwh",
+    "eur_per_kwh",
+    "exr",
+    "time_start_local",
+    "time_end_local"
+  ],
+  "data_start": "2026-08-31T22:00:00+00:00",
+  "data_end": "2026-09-30T21:45:00+00:00",
+  "content_sha256": "cf0cbc22fd9f083243d86c588907e1efa824faa0a334a0de9d31c9ebe0c8310e",
+  "data_sha256": "e85192f242e36fdfe1bbfd6d6349bbb4a2d9eeb65f664cbc8d05191261c691c3",
+  "git_sha": "36d53396942c0a5e56429decbdef7b2b8c4bb30c",
+  "git_dirty": true,
+  "library_versions": {
+    "pricefc": "0.1.0",
+    "pandas": "3.0.6",
+    "pyarrow": "25.0.1",
+    "numpy": "2.5.3",
+    "requests": "2.34.2",
+    "entsoe-py": "0.8.1",
+    "pandera": "0.33.1"
+  },
+  "validation": {
+    "passed": true,
+    "n_errors": 0,
+    "n_warnings": 1,
+    "errors": [],
+    "warnings": [
+      {
+        "check": "warning",
+        "message": "Column 'price_eur_mwh' failed element-wise validator number 3: greater_than_or_equal_to(0.0) failure cases: -0.23, -0.26, -0.25, -0.27, -0.25, -0.31, -0.32, -0.44, -0.43, -0.44, -0.44, -0.45, -0.44, -0.44, -0.71, -0.54, -0.56, -0.42, -0.44, -0.42, -0.33, -0.22, -0.17, -0.21, -0.24, -0.32, -0.32, -0.3, -0.2, -0.32, -0.26, -0.29, -0.29, -0.28, -0.01"
+      }
+    ],
+    "stats": {
+      "rows": 2880,
+      "start": "2026-08-31 22:00:00+00:00",
+      "end": "2026-09-30 21:45:00+00:00",
+      "resolution_counts": {
+        "PT15M": 2880
+      }
+    }
+  },
+  "chunks": [
+    {
+      "missing_days": [],
+      "days_requested": 30,
+      "time_end_anomalies": []
+    }
+  ],
+  "price_source": "elprisetjustnu",
+  "attribution": "Electricity prices from elprisetjustnu.se",
+  "price_basis": "excl. VAT, surcharges and taxes"
+}

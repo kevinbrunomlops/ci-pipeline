@@ -1,0 +1,104 @@
+[
+  {
+    "path": "data/raw/open_meteo/historical_forecast__ecmwf_ifs/se1_lulea/pulled_at=2026-09-30T21-46-28Z",
+    "valid": true,
+    "rows": 50352,
+    "data_sha256": "fe736b21b2c9645554c2ffc30c4a60a8703d710fd75cc0c6ed3b0e595cf5c79d"
+  },
+  {
+    "path": "data/raw/open_meteo/historical_forecast__ecmwf_ifs/se1_kiruna/pulled_at=2026-09-30T21-46-43Z",
+    "valid": true,
+    "rows": 50352,
+    "data_sha256": "1afdb514cd6d7e22c97067ebc4fdcbc3d70093111306c6c17ff8629417d2fa28"
+  },
+  {
+    "path": "data/raw/open_meteo/historical_forecast__ecmwf_ifs/se1_markbygden/pulled_at=2026-09-30T21-46-51Z",
+    "valid": true,
+    "rows": 50352,
+    "data_sha256": "b9a88852a18177bd649d7708234c6527783d92f1ad2d374109287f0bce80b55f"
+  },
+  {
+    "path": "data/raw/open_meteo/historical_forecast__ecmwf_ifs/se2_sundsvall/pulled_at=2026-09-30T21-47-00Z",
+    "valid": true,
+    "rows": 50352,
+    "data_sha256": "43627b92823308b233b0e9daff1aa22c1e28cadab407b18ea4311ac3c688a767"
+  },
+  {
+    "path": "data/raw/open_meteo/historical_forecast__ecmwf_ifs/se2_umea/pulled_at=2026-09-30T21-47-17Z",
+    "valid": true,
+    "rows": 50352,
+    "data_sha256": "366bf8471c03f497bf3f75535c4f9ac4d96b9cb2cd14f6caec5f54c98592ed00"
+  },
+  {
+    "path": "data/raw/open_meteo/historical_forecast__ecmwf_ifs/se2_ostersund/pulled_at=2026-09-30T21-47-25Z",
+    "valid": true,
+    "rows": 50352,
+    "data_sha256": "af526aea91c616e24ad06395c340ed416e44446ea9a0dcffb6edd0fd4227154f"
+  },
+  {
+    "path": "data/raw/open_meteo/historical_forecast__ecmwf_ifs/se2_hudiksvall/pulled_at=2026-09-30T21-47-48Z",
+    "valid": true,
+    "rows": 50352,
+    "data_sha256": "ce97313affb4c2e28448581b60517344401bfc2d7b6db17e87b57df9a7acabfd"
+  },
+  {
+    "path": "data/raw/open_meteo/historical_forecast__ecmwf_ifs/se3_stockholm/pulled_at=2026-09-30T21-47-56Z",
+    "valid": true,
+    "rows": 50352,
+    "data_sha256": "6658accc8be8e18bf9f7575766e6849638aa31333db6250557dcb3fbc6f8a36f"
+  },
+  {
+    "path": "data/raw/open_meteo/historical_forecast__ecmwf_ifs/se3_gothenburg/pulled_at=2026-09-30T21-48-05Z",
+    "valid": true,
+    "rows": 50352,
+    "data_sha256": "51623d15555b950f28f0dc26cdae29f003d291883c4e3bd27aa006023cb43904"
+  },
+  {
+    "path": "data/raw/open_meteo/historical_forecast__ecmwf_ifs/se3_orebro/pulled_at=2026-09-30T21-48-13Z",
+    "valid": true,
+    "rows": 50352,
+    "data_sha256": "6fdffafaff05cbd8c9dcf5556ef27bccf2c3962090606495ee589a066bd4c310"
+  },
+  {
+    "path": "data/raw/open_meteo/historical_forecast__ecmwf_ifs/se3_gavle/pulled_at=2026-09-30T21-48-22Z",
+    "valid": true,
+    "rows": 50352,
+    "data_sha256": "4c8805283e65b994dbc58e17d347131faf8f3b15f9fb65dfc49455fad4242fef"
+  },
+  {
+    "path": "data/raw/open_meteo/historical_forecast__ecmwf_ifs/se3_vanern/pulled_at=2026-09-30T21-48-30Z",
+    "valid": true,
+    "rows": 50352,
+    "data_sha256": "3e7ab7274c0a13ae9d1454518f05c445966ba383a5614dddd37d69dae1ab0d9f"
+  },
+  {
+    "path": "data/raw/open_meteo/historical_forecast__ecmwf_ifs/se4_malmo/pulled_at=2026-09-30T21-48-39Z",
+    "valid": true,
+    "rows": 50352,
+    "data_sha256": "4ddd50e1ddf26c66f85fba2a3beaa23c93c563a280d98a3a4c89c817959790fa"
+  },
+  {
+    "path": "data/raw/open_meteo/historical_forecast__ecmwf_ifs/se4_karlshamn/pulled_at=2026-09-30T21-49-25Z",
+    "valid": true,
+    "rows": 50352,
+    "data_sha256": "562ba7a9b22ffbec2a8bb25f48a581e31b4ebe3da22635aa177065cfb4d340fe"
+  },
+  {
+    "path": "data/raw/open_meteo/historical_forecast__ecmwf_ifs/se4_kriegers_flak/pulled_at=2026-09-30T21-49-41Z",
+    "valid": true,
+    "rows": 50352,
+    "data_sha256": "d9c34c4e6de969860de702ad03e26544d73c9bffdd3440d64e43a261f6c2343a"
+  },
+  {
+    "path": "data/raw/open_meteo/historical_forecast__ecmwf_ifs/dk_lolland/pulled_at=2026-09-30T21-49-51Z",
+    "valid": true,
+    "rows": 50352,
+    "data_sha256": "e9284120a74792b8e0c1c2636f17d4fb2270bdeca8f731adee57c71747e38d4c"
+  },
+  {
+    "path": "data/raw/open_meteo/historical_forecast__ecmwf_ifs/de_husum/pulled_at=2026-09-30T21-49-59Z",
+    "valid": true,
+    "rows": 50352,
+    "data_sha256": "1ad601be7f06c6cc6bd0f5e09fed60dd57f520919bf49263eae3936bba93f651"
+  }
+]

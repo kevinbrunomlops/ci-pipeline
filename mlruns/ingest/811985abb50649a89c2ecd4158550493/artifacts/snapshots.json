@@ -1,0 +1,32 @@
+[
+  {
+    "path": "data/raw/open_meteo/forecast__ecmwf_ifs/se3_stockholm/pulled_at=2026-09-30T21-20-58Z",
+    "valid": true,
+    "rows": 72,
+    "data_sha256": "ca188b3adf64d26807a1531b12438fa57d2c6967bea7dfd4d08281eb12c5177c"
+  },
+  {
+    "path": "data/raw/open_meteo/forecast__ecmwf_ifs/se3_gothenburg/pulled_at=2026-09-30T21-20-59Z",
+    "valid": true,
+    "rows": 72,
+    "data_sha256": "62ee98bc186ddd7898f0540d939de37d4868cf5a2d477f4e71b8c59e29a833c8"
+  },
+  {
+    "path": "data/raw/open_meteo/forecast__ecmwf_ifs/se3_orebro/pulled_at=2026-09-30T21-21-00Z",
+    "valid": true,
+    "rows": 72,
+    "data_sha256": "671e147736428cf7b5ceefe30cd725d4e4fa94c9903a95f4887bd3bd0e96f4c4"
+  },
+  {
+    "path": "data/raw/open_meteo/forecast__ecmwf_ifs/se3_gavle/pulled_at=2026-09-30T21-21-01Z",
+    "valid": true,
+    "rows": 72,
+    "data_sha256": "23be1285259f11fbee8a35882cf78583c3acdbf18f02f18803c1a1f2597ffdc7"
+  },
+  {
+    "path": "data/raw/open_meteo/forecast__ecmwf_ifs/se3_vanern/pulled_at=2026-09-30T21-21-02Z",
+    "valid": true,
+    "rows": 72,
+    "data_sha256": "a48f70e76fd2bbfec188560f9368db15e07e40c399b02106180346851c2bdff3"
+  }
+]

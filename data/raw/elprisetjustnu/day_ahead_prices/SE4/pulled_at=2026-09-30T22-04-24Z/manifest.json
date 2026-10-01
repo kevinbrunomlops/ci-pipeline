@@ -1,0 +1,73 @@
+{
+  "attribution": "Electricity prices from elprisetjustnu.se",
+  "chunks": [
+    {
+      "days_requested": 31,
+      "missing_days": [],
+      "time_end_anomalies": [
+        "2022-10-30T02:00:00+02:00"
+      ]
+    }
+  ],
+  "columns": [
+    "timestamp",
+    "price_eur_mwh",
+    "resolution",
+    "sek_per_kwh",
+    "eur_per_kwh",
+    "exr",
+    "time_start_local",
+    "time_end_local"
+  ],
+  "content_sha256": "577f7effb6fd1efc789d3f4f75d629f6128085838be54ba45ac6630da9f9af86",
+  "data_end": "2022-10-31T22:00:00+00:00",
+  "data_sha256": "89fe7c75e40bf0b867c3eb1d6f105f0ae7880b158d4ea08eb5793f5166b85b4d",
+  "data_start": "2022-09-30T22:00:00+00:00",
+  "dataset": "day_ahead_prices",
+  "endpoint": "https://www.elprisetjustnu.se/api/v1/prices/{year}/{month_day}_{zone}.json",
+  "git_dirty": false,
+  "git_sha": "36d53396942c0a5e56429decbdef7b2b8c4bb30c",
+  "key": "SE4",
+  "library_versions": {
+    "entsoe-py": "0.8.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "pandera": "0.33.1",
+    "pricefc": "0.1.0",
+    "pyarrow": "25.0.1",
+    "requests": "2.34.2"
+  },
+  "price_basis": "excl. VAT, surcharges and taxes",
+  "price_source": "elprisetjustnu",
+  "pulled_at": "2026-09-30T22:04:24+00:00",
+  "query": {
+    "first_day": "2022-10-01",
+    "last_day": "2022-10-31",
+    "url_template": "https://www.elprisetjustnu.se/api/v1/prices/{year}/{month_day}_{zone}.json",
+    "zone": "SE4"
+  },
+  "requested_end": "2022-10-31T23:00:00+00:00",
+  "requested_start": "2022-09-30T22:00:00+00:00",
+  "row_count": 745,
+  "source": "elprisetjustnu",
+  "validation": {
+    "errors": [],
+    "n_errors": 0,
+    "n_warnings": 1,
+    "passed": true,
+    "stats": {
+      "end": "2022-10-31 22:00:00+00:00",
+      "resolution_counts": {
+        "PT60M": 745
+      },
+      "rows": 745,
+      "start": "2022-09-30 22:00:00+00:00"
+    },
+    "warnings": [
+      {
+        "check": "warning",
+        "message": "Column 'price_eur_mwh' failed element-wise validator number 3: greater_than_or_equal_to(0.0) failure cases: -0.19, -0.39, -0.95, -0.99, -0.52, -0.09, -0.05, -0.92, -0.96, -0.96, -0.59, -0.05, -0.03"
+      }
+    ]
+  }
+}

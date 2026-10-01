@@ -1,0 +1,66 @@
+{
+  "attribution": "Electricity prices from elprisetjustnu.se",
+  "chunks": [
+    {
+      "days_requested": 31,
+      "missing_days": [],
+      "time_end_anomalies": []
+    }
+  ],
+  "columns": [
+    "timestamp",
+    "price_eur_mwh",
+    "resolution",
+    "sek_per_kwh",
+    "eur_per_kwh",
+    "exr",
+    "time_start_local",
+    "time_end_local"
+  ],
+  "content_sha256": "82ba476c2c73485b2fbb7aa64791c0b0717c4758217fce2eb03851595c5c5111",
+  "data_end": "2026-01-31T22:45:00+00:00",
+  "data_sha256": "d65ce45f6b1ed810377c856f44c1c3e08e42ca3f71030d1802de63204675eee3",
+  "data_start": "2025-12-31T23:00:00+00:00",
+  "dataset": "day_ahead_prices",
+  "endpoint": "https://www.elprisetjustnu.se/api/v1/prices/{year}/{month_day}_{zone}.json",
+  "git_dirty": false,
+  "git_sha": "36d53396942c0a5e56429decbdef7b2b8c4bb30c",
+  "key": "SE4",
+  "library_versions": {
+    "entsoe-py": "0.8.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "pandera": "0.33.1",
+    "pricefc": "0.1.0",
+    "pyarrow": "25.0.1",
+    "requests": "2.34.2"
+  },
+  "price_basis": "excl. VAT, surcharges and taxes",
+  "price_source": "elprisetjustnu",
+  "pulled_at": "2026-09-30T22:14:22+00:00",
+  "query": {
+    "first_day": "2026-01-01",
+    "last_day": "2026-01-31",
+    "url_template": "https://www.elprisetjustnu.se/api/v1/prices/{year}/{month_day}_{zone}.json",
+    "zone": "SE4"
+  },
+  "requested_end": "2026-01-31T23:00:00+00:00",
+  "requested_start": "2025-12-31T23:00:00+00:00",
+  "row_count": 2976,
+  "source": "elprisetjustnu",
+  "validation": {
+    "errors": [],
+    "n_errors": 0,
+    "n_warnings": 0,
+    "passed": true,
+    "stats": {
+      "end": "2026-01-31 22:45:00+00:00",
+      "resolution_counts": {
+        "PT15M": 2976
+      },
+      "rows": 2976,
+      "start": "2025-12-31 23:00:00+00:00"
+    },
+    "warnings": []
+  }
+}

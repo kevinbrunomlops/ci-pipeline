@@ -1,0 +1,23 @@
+{
+  "dataset": "previous_runs__ecmwf_ifs",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "rows": 8712,
+    "start": "2025-10-02 00:00:00+00:00",
+    "end": "2026-09-29 23:00:00+00:00",
+    "null_counts": {
+      "temperature_2m_previous_day1": 366,
+      "wind_speed_10m_previous_day1": 263,
+      "wind_speed_100m_previous_day1": 629,
+      "wind_direction_100m_previous_day1": 628,
+      "snowfall_previous_day1": 366,
+      "temperature_2m_previous_day2": 390,
+      "wind_speed_10m_previous_day2": 390,
+      "wind_speed_100m_previous_day2": 263,
+      "wind_direction_100m_previous_day2": 262,
+      "precipitation_previous_day2": 263
+    }
+  }
+}

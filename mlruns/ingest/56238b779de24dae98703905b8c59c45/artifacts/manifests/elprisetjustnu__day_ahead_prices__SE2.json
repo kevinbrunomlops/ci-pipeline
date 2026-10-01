@@ -1,0 +1,71 @@
+{
+  "source": "elprisetjustnu",
+  "dataset": "day_ahead_prices",
+  "key": "SE2",
+  "endpoint": "https://www.elprisetjustnu.se/api/v1/prices/{year}/{month_day}_{zone}.json",
+  "query": {
+    "zone": "SE2",
+    "first_day": "2026-09-01",
+    "last_day": "2026-09-30",
+    "url_template": "https://www.elprisetjustnu.se/api/v1/prices/{year}/{month_day}_{zone}.json"
+  },
+  "requested_start": "2026-08-31T22:00:00+00:00",
+  "requested_end": "2026-09-30T22:00:00+00:00",
+  "pulled_at": "2026-09-30T22:31:29+00:00",
+  "row_count": 2880,
+  "columns": [
+    "timestamp",
+    "price_eur_mwh",
+    "resolution",
+    "sek_per_kwh",
+    "eur_per_kwh",
+    "exr",
+    "time_start_local",
+    "time_end_local"
+  ],
+  "data_start": "2026-08-31T22:00:00+00:00",
+  "data_end": "2026-09-30T21:45:00+00:00",
+  "content_sha256": "5ff32a92cdab55aa18907ad7f70fb28ecc726a5532e36803309c7245510009aa",
+  "data_sha256": "790f371449e4e779ec7469c554abe6380abb0551b22cf818642825dcbae0a3b0",
+  "git_sha": "36d53396942c0a5e56429decbdef7b2b8c4bb30c",
+  "git_dirty": false,
+  "library_versions": {
+    "pricefc": "0.1.0",
+    "pandas": "3.0.6",
+    "pyarrow": "25.0.1",
+    "numpy": "2.5.3",
+    "requests": "2.34.2",
+    "entsoe-py": "0.8.1",
+    "pandera": "0.33.1"
+  },
+  "validation": {
+    "passed": true,
+    "n_errors": 0,
+    "n_warnings": 1,
+    "errors": [],
+    "warnings": [
+      {
+        "check": "warning",
+        "message": "Column 'price_eur_mwh' failed element-wise validator number 3: greater_than_or_equal_to(0.0) failure cases: -0.18, -0.55, -0.09, -0.06, -0.27, -2.01, -0.58, -0.47, -0.32, -0.3, -0.83, -0.89, -0.86, -0.83, -2.01, -2.01, -2.01, -2.12, -3.49, -3.52, -3.85, -4.19, -3.83, -3.92, -3.77, -4.22, -4.62, -4.25, -4.24, -3.07, -3.52, -3.58, -2.73, -2.01, -1.97, -0.54, -0.02, -0.48, -0.98, -1.47, -1.07, -0.75, -0.56, -0.41, -0.1, -0.25, -0.11, -0.1, -0.12, -0.13, -0.24, -0.24, -0.2, -0.2, -0.2, -0.2, -0.18, "
+      }
+    ],
+    "stats": {
+      "rows": 2880,
+      "start": "2026-08-31 22:00:00+00:00",
+      "end": "2026-09-30 21:45:00+00:00",
+      "resolution_counts": {
+        "PT15M": 2880
+      }
+    }
+  },
+  "chunks": [
+    {
+      "missing_days": [],
+      "days_requested": 30,
+      "time_end_anomalies": []
+    }
+  ],
+  "price_source": "elprisetjustnu",
+  "attribution": "Electricity prices from elprisetjustnu.se",
+  "price_basis": "excl. VAT, surcharges and taxes"
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "path": "data/raw/open_meteo/forecast__ecmwf_ifs/se1_lulea/pulled_at=2026-09-30T21-55-28Z",
+    "valid": true,
+    "rows": 72,
+    "data_sha256": "e5fc4061cda69f7e0a799b803ed788bac848766b43b5314def74c344b4f1e1ec"
+  },
+  {
+    "path": "data/raw/open_meteo/forecast__ecmwf_ifs/se1_kiruna/pulled_at=2026-09-30T21-55-29Z",
+    "valid": true,
+    "rows": 72,
+    "data_sha256": "a29e85e32f320ccac51d3d9a7a1b06d3a89b6473ddb653b27a3bcfa547963d14"
+  },
+  {
+    "path": "data/raw/open_meteo/forecast__ecmwf_ifs/se1_markbygden/pulled_at=2026-09-30T21-55-30Z",
+    "valid": true,
+    "rows": 72,
+    "data_sha256": "1115216a455ce34d88aa84c5130088464685203d14e94dc103fa2d9868846d0a"
+  },
+  {
+    "path": "data/raw/open_meteo/forecast__ecmwf_ifs/se2_sundsvall/pulled_at=2026-09-30T21-55-31Z",
+    "valid": true,
+    "rows": 72,
+    "data_sha256": "1046563b7183b2e51332f4b5a16ab1373ce45792517680ddce8717f583a9babb"
+  },
+  {
+    "path": "data/raw/open_meteo/forecast__ecmwf_ifs/se2_umea/pulled_at=2026-09-30T21-55-32Z",
+    "valid": true,
+    "rows": 72,
+    "data_sha256": "bcef3432a16a252df3165ba9ecee9c9cb115759bb7214ab92fce651dc188a789"
+  },
+  {
+    "path": "data/raw/open_meteo/forecast__ecmwf_ifs/se2_ostersund/pulled_at=2026-09-30T21-55-33Z",
+    "valid": true,
+    "rows": 72,
+    "data_sha256": "2058bacff8f401ae0de3618c8f474ca7683dc411303f8e14856a36f398519bbc"
+  },
+  {
+    "path": "data/raw/open_meteo/forecast__ecmwf_ifs/se2_hudiksvall/pulled_at=2026-09-30T21-55-34Z",
+    "valid": true,
+    "rows": 72,
+    "data_sha256": "4840153696f6d7d9c001865101ff2bc0e59e0e3805efcc1b8886aa77688eee1e"
+  },
+  {
+    "path": "data/raw/open_meteo/forecast__ecmwf_ifs/se3_stockholm/pulled_at=2026-09-30T21-55-35Z",
+    "valid": true,
+    "rows": 72,
+    "data_sha256": "ca188b3adf64d26807a1531b12438fa57d2c6967bea7dfd4d08281eb12c5177c"
+  },
+  {
+    "path": "data/raw/open_meteo/forecast__ecmwf_ifs/se3_gothenburg/pulled_at=2026-09-30T21-55-36Z",
+    "valid": true,
+    "rows": 72,
+    "data_sha256": "62ee98bc186ddd7898f0540d939de37d4868cf5a2d477f4e71b8c59e29a833c8"
+  },
+  {
+    "path": "data/raw/open_meteo/forecast__ecmwf_ifs/se3_orebro/pulled_at=2026-09-30T21-55-37Z",
+    "valid": true,
+    "rows": 72,
+    "data_sha256": "671e147736428cf7b5ceefe30cd725d4e4fa94c9903a95f4887bd3bd0e96f4c4"
+  },
+  {
+    "path": "data/raw/open_meteo/forecast__ecmwf_ifs/se3_gavle/pulled_at=2026-09-30T21-55-38Z",
+    "valid": true,
+    "rows": 72,
+    "data_sha256": "23be1285259f11fbee8a35882cf78583c3acdbf18f02f18803c1a1f2597ffdc7"
+  },
+  {
+    "path": "data/raw/open_meteo/forecast__ecmwf_ifs/se3_vanern/pulled_at=2026-09-30T21-55-39Z",
+    "valid": true,
+    "rows": 72,
+    "data_sha256": "a48f70e76fd2bbfec188560f9368db15e07e40c399b02106180346851c2bdff3"
+  },
+  {
+    "path": "data/raw/open_meteo/forecast__ecmwf_ifs/se4_malmo/pulled_at=2026-09-30T21-55-40Z",
+    "valid": true,
+    "rows": 72,
+    "data_sha256": "ac70b1da3b2dc1e6de75c5d425682918fd4f0d310efddbc27dec51de93c5e748"
+  },
+  {
+    "path": "data/raw/open_meteo/forecast__ecmwf_ifs/se4_karlshamn/pulled_at=2026-09-30T21-55-41Z",
+    "valid": true,
+    "rows": 72,
+    "data_sha256": "0cba7b4cd8f12913ec5c6e1208734bf60179842da4481ed58baa4ce51b0f52a6"
+  },
+  {
+    "path": "data/raw/open_meteo/forecast__ecmwf_ifs/se4_kriegers_flak/pulled_at=2026-09-30T21-55-42Z",
+    "valid": true,
+    "rows": 72,
+    "data_sha256": "2af18e16ab25c872b96511507424b6d9857dccef0772cb62818bc9c7798f33f1"
+  },
+  {
+    "path": "data/raw/open_meteo/forecast__ecmwf_ifs/dk_lolland/pulled_at=2026-09-30T21-55-43Z",
+    "valid": true,
+    "rows": 72,
+    "data_sha256": "737ea9e269e457c5bf5d0fbf0ecf9ab7b474999d1abe134d51e004d962053876"
+  },
+  {
+    "path": "data/raw/open_meteo/forecast__ecmwf_ifs/de_husum/pulled_at=2026-09-30T21-55-44Z",
+    "valid": true,
+    "rows": 72,
+    "data_sha256": "5bbf425f067c210ef512ee82ebdde520e16ecdeea2f887431e879f4218bfc4e1"
+  }
+]

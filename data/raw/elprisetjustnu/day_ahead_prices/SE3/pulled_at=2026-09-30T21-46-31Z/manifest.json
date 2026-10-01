@@ -1,0 +1,78 @@
+{
+  "attribution": "Electricity prices from elprisetjustnu.se",
+  "chunks": [
+    {
+      "days_requested": 30,
+      "missing_days": [],
+      "time_end_anomalies": []
+    }
+  ],
+  "columns": [
+    "timestamp",
+    "price_eur_mwh",
+    "resolution",
+    "sek_per_kwh",
+    "eur_per_kwh",
+    "exr",
+    "time_start_local",
+    "time_end_local"
+  ],
+  "content_sha256": "419bb8d49a56b7cbedae84a8539f3fd78911e1ccb1ab67359505919e4bc10ae8",
+  "data_end": "2021-11-30T22:00:00+00:00",
+  "data_sha256": "e4a2db22a7d71649ce82f5333953c604f7e46b63014c898ec1df16027a2dc1e2",
+  "data_start": "2021-10-31T23:00:00+00:00",
+  "dataset": "day_ahead_prices",
+  "endpoint": "https://www.elprisetjustnu.se/api/v1/prices/{year}/{month_day}_{zone}.json",
+  "git_dirty": false,
+  "git_sha": "fcef0916248630ac60c8339c6f47c1b36e29c980",
+  "key": "SE3",
+  "library_versions": {
+    "entsoe-py": "0.8.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "pandera": "0.33.1",
+    "pricefc": "0.1.0",
+    "pyarrow": "25.0.1",
+    "requests": "2.34.2"
+  },
+  "price_basis": "excl. VAT, surcharges and taxes",
+  "price_source": "elprisetjustnu",
+  "pulled_at": "2026-09-30T21:46:31+00:00",
+  "query": {
+    "first_day": "2021-11-01",
+    "last_day": "2021-11-30",
+    "url_template": "https://www.elprisetjustnu.se/api/v1/prices/{year}/{month_day}_{zone}.json",
+    "zone": "SE3"
+  },
+  "requested_end": "2021-11-30T23:00:00+00:00",
+  "requested_start": "2021-10-31T23:00:00+00:00",
+  "row_count": 719,
+  "source": "elprisetjustnu",
+  "validation": {
+    "errors": [
+      {
+        "check": "max_gap",
+        "gap": "0 days 02:00:00",
+        "gap_end": "2021-11-04T23:00:00+00:00"
+      },
+      {
+        "check": "day_count",
+        "day": "2021-11-04",
+        "expected": 24,
+        "got": 23
+      }
+    ],
+    "n_errors": 2,
+    "n_warnings": 0,
+    "passed": false,
+    "stats": {
+      "end": "2021-11-30 22:00:00+00:00",
+      "resolution_counts": {
+        "PT60M": 719
+      },
+      "rows": 719,
+      "start": "2021-10-31 23:00:00+00:00"
+    },
+    "warnings": []
+  }
+}

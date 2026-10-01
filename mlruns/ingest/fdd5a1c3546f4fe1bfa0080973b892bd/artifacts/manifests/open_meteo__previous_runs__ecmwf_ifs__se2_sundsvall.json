@@ -1,0 +1,108 @@
+{
+  "source": "open_meteo",
+  "dataset": "previous_runs__ecmwf_ifs",
+  "key": "se2_sundsvall",
+  "endpoint": "https://previous-runs-api.open-meteo.com/v1/forecast",
+  "query": {
+    "latitude": 62.39,
+    "longitude": 17.31,
+    "hourly": "temperature_2m_previous_day1,wind_speed_10m_previous_day1,wind_speed_100m_previous_day1,wind_direction_100m_previous_day1,cloud_cover_previous_day1,shortwave_radiation_previous_day1,precipitation_previous_day1,snowfall_previous_day1,temperature_2m_previous_day2,wind_speed_10m_previous_day2,wind_speed_100m_previous_day2,wind_direction_100m_previous_day2,cloud_cover_previous_day2,shortwave_radiation_previous_day2,precipitation_previous_day2,snowfall_previous_day2",
+    "models": "ecmwf_ifs",
+    "timezone": "GMT",
+    "timeformat": "unixtime",
+    "wind_speed_unit": "ms",
+    "start_date": "2025-10-02",
+    "end_date": "2026-09-29",
+    "url": "https://previous-runs-api.open-meteo.com/v1/forecast"
+  },
+  "requested_start": "2025-10-02T00:00:00+00:00",
+  "requested_end": "2026-09-30T00:00:00+00:00",
+  "pulled_at": "2026-09-30T21:56:26+00:00",
+  "row_count": 8712,
+  "columns": [
+    "timestamp",
+    "temperature_2m_previous_day1",
+    "wind_speed_10m_previous_day1",
+    "wind_speed_100m_previous_day1",
+    "wind_direction_100m_previous_day1",
+    "cloud_cover_previous_day1",
+    "shortwave_radiation_previous_day1",
+    "precipitation_previous_day1",
+    "snowfall_previous_day1",
+    "temperature_2m_previous_day2",
+    "wind_speed_10m_previous_day2",
+    "wind_speed_100m_previous_day2",
+    "wind_direction_100m_previous_day2",
+    "cloud_cover_previous_day2",
+    "shortwave_radiation_previous_day2",
+    "precipitation_previous_day2",
+    "snowfall_previous_day2"
+  ],
+  "data_start": "2025-10-02T00:00:00+00:00",
+  "data_end": "2026-09-29T23:00:00+00:00",
+  "content_sha256": "95512544718e21db3cb2fdf44d06affc2a12186566f47d7d4e79cd6b1da7b65f",
+  "data_sha256": "2e1e39b85f6b4267be3812ca003142a47bedee31f1a34bcef10f03d2ac9c2a28",
+  "git_sha": "36d53396942c0a5e56429decbdef7b2b8c4bb30c",
+  "git_dirty": false,
+  "library_versions": {
+    "pricefc": "0.1.0",
+    "pandas": "3.0.6",
+    "pyarrow": "25.0.1",
+    "numpy": "2.5.3",
+    "requests": "2.34.2",
+    "entsoe-py": "0.8.1",
+    "pandera": "0.33.1"
+  },
+  "validation": {
+    "passed": true,
+    "n_errors": 0,
+    "n_warnings": 0,
+    "errors": [],
+    "warnings": [],
+    "stats": {
+      "rows": 8712,
+      "start": "2025-10-02 00:00:00+00:00",
+      "end": "2026-09-29 23:00:00+00:00",
+      "null_counts": {
+        "temperature_2m_previous_day1": 366,
+        "wind_speed_10m_previous_day1": 263,
+        "wind_speed_100m_previous_day1": 629,
+        "wind_direction_100m_previous_day1": 627,
+        "snowfall_previous_day1": 366,
+        "temperature_2m_previous_day2": 390,
+        "wind_speed_10m_previous_day2": 390,
+        "wind_speed_100m_previous_day2": 263,
+        "wind_direction_100m_previous_day2": 262,
+        "precipitation_previous_day2": 263
+      }
+    }
+  },
+  "chunks": [
+    {
+      "start_date": "2025-10-02",
+      "end_date": "2025-12-31",
+      "latitude": 62.460457,
+      "longitude": 17.272728,
+      "elevation": 14.0,
+      "generationtime_ms": 100.87084770202637,
+      "utc_offset_seconds": 0
+    },
+    {
+      "start_date": "2026-01-01",
+      "end_date": "2026-09-29",
+      "latitude": 62.460457,
+      "longitude": 17.272728,
+      "elevation": 14.0,
+      "generationtime_ms": 259.871244430542,
+      "utc_offset_seconds": 0
+    }
+  ],
+  "location": {
+    "name": "se2_sundsvall",
+    "lat": 62.39,
+    "lon": 17.31,
+    "role": "demand"
+  },
+  "weather_source": "open-meteo:previous_runs:ecmwf_ifs",
+  "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)"
+}

@@ -1,0 +1,77 @@
+{
+  "source": "open_meteo",
+  "dataset": "forecast__ecmwf_ifs",
+  "key": "se2_hudiksvall",
+  "endpoint": "https://api.open-meteo.com/v1/forecast",
+  "query": {
+    "latitude": 61.73,
+    "longitude": 17.1,
+    "hourly": "temperature_2m,wind_speed_10m,wind_speed_100m,wind_direction_100m,cloud_cover,shortwave_radiation,precipitation,snowfall",
+    "models": "ecmwf_ifs",
+    "timezone": "GMT",
+    "timeformat": "unixtime",
+    "wind_speed_unit": "ms",
+    "forecast_days": 3,
+    "past_days": 0,
+    "url": "https://api.open-meteo.com/v1/forecast"
+  },
+  "requested_start": "2026-09-30T00:00:00+00:00",
+  "requested_end": "2026-10-03T00:00:00+00:00",
+  "pulled_at": "2026-09-30T21:55:34+00:00",
+  "row_count": 72,
+  "columns": [
+    "timestamp",
+    "temperature_2m",
+    "wind_speed_10m",
+    "wind_speed_100m",
+    "wind_direction_100m",
+    "cloud_cover",
+    "shortwave_radiation",
+    "precipitation",
+    "snowfall"
+  ],
+  "data_start": "2026-09-30T00:00:00+00:00",
+  "data_end": "2026-10-02T23:00:00+00:00",
+  "content_sha256": "3ea0b129bea2e05168da67b70a71a390617d9f6df4ebc185c43c44de4f100fa3",
+  "data_sha256": "4840153696f6d7d9c001865101ff2bc0e59e0e3805efcc1b8886aa77688eee1e",
+  "git_sha": "b5319e24dcf932a0feb4bedd1f82b22db27898e7",
+  "git_dirty": false,
+  "library_versions": {
+    "pricefc": "0.1.0",
+    "pandas": "3.0.6",
+    "pyarrow": "25.0.1",
+    "numpy": "2.5.3",
+    "requests": "2.34.2",
+    "entsoe-py": "0.8.1",
+    "pandera": "0.33.1"
+  },
+  "validation": {
+    "passed": true,
+    "n_errors": 0,
+    "n_warnings": 0,
+    "errors": [],
+    "warnings": [],
+    "stats": {
+      "rows": 72,
+      "start": "2026-09-30 00:00:00+00:00",
+      "end": "2026-10-02 23:00:00+00:00"
+    }
+  },
+  "chunks": [
+    {
+      "latitude": 61.75747,
+      "longitude": 17.068966,
+      "elevation": 18.0,
+      "generationtime_ms": 2.1396875381469727,
+      "utc_offset_seconds": 0
+    }
+  ],
+  "location": {
+    "name": "se2_hudiksvall",
+    "lat": 61.73,
+    "lon": 17.1,
+    "role": "wind"
+  },
+  "weather_source": "open-meteo:forecast:ecmwf_ifs",
+  "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)"
+}

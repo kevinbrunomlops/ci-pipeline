@@ -1,0 +1,120 @@
+{
+  "source": "open_meteo",
+  "dataset": "previous_runs__ecmwf_ifs",
+  "key": "se3_vanern",
+  "endpoint": "https://previous-runs-api.open-meteo.com/v1/forecast",
+  "query": {
+    "latitude": 58.9,
+    "longitude": 13.3,
+    "hourly": "temperature_2m_previous_day1,wind_speed_10m_previous_day1,wind_speed_100m_previous_day1,wind_direction_100m_previous_day1,cloud_cover_previous_day1,shortwave_radiation_previous_day1,precipitation_previous_day1,snowfall_previous_day1,temperature_2m_previous_day2,wind_speed_10m_previous_day2,wind_speed_100m_previous_day2,wind_direction_100m_previous_day2,cloud_cover_previous_day2,shortwave_radiation_previous_day2,precipitation_previous_day2,snowfall_previous_day2",
+    "models": "ecmwf_ifs",
+    "timezone": "GMT",
+    "timeformat": "unixtime",
+    "wind_speed_unit": "ms",
+    "start_date": "2025-10-02",
+    "end_date": "2026-09-29",
+    "url": "https://previous-runs-api.open-meteo.com/v1/forecast"
+  },
+  "requested_start": "2025-10-02T00:00:00+00:00",
+  "requested_end": "2026-09-30T00:00:00+00:00",
+  "pulled_at": "2026-09-30T21:20:06+00:00",
+  "row_count": 8712,
+  "columns": [
+    "timestamp",
+    "temperature_2m_previous_day1",
+    "wind_speed_10m_previous_day1",
+    "wind_speed_100m_previous_day1",
+    "wind_direction_100m_previous_day1",
+    "cloud_cover_previous_day1",
+    "shortwave_radiation_previous_day1",
+    "precipitation_previous_day1",
+    "snowfall_previous_day1",
+    "temperature_2m_previous_day2",
+    "wind_speed_10m_previous_day2",
+    "wind_speed_100m_previous_day2",
+    "wind_direction_100m_previous_day2",
+    "cloud_cover_previous_day2",
+    "shortwave_radiation_previous_day2",
+    "precipitation_previous_day2",
+    "snowfall_previous_day2"
+  ],
+  "data_start": "2025-10-02T00:00:00+00:00",
+  "data_end": "2026-09-29T23:00:00+00:00",
+  "content_sha256": "9258507b57d565ee7b47de17df6423d11cc52933cc643d5cefb7c3a752dc089c",
+  "data_sha256": "df719719c2c3cb076932c98e98668bcbce0551d1f55339733ef9f0dbce032d47",
+  "git_sha": "unknown",
+  "git_dirty": true,
+  "library_versions": {
+    "pricefc": "0.1.0",
+    "pandas": "3.0.6",
+    "pyarrow": "25.0.1",
+    "numpy": "2.5.3",
+    "requests": "2.34.2",
+    "entsoe-py": "0.8.1",
+    "pandera": "0.33.1"
+  },
+  "validation": {
+    "passed": false,
+    "n_errors": 1,
+    "n_warnings": 0,
+    "errors": [
+      {
+        "check": "null_frac<=0.0",
+        "columns": [
+          "temperature_2m_previous_day1",
+          "wind_speed_10m_previous_day1",
+          "wind_speed_100m_previous_day1",
+          "wind_direction_100m_previous_day1",
+          "snowfall_previous_day1",
+          "temperature_2m_previous_day2",
+          "wind_speed_10m_previous_day2",
+          "wind_speed_100m_previous_day2",
+          "wind_direction_100m_previous_day2",
+          "precipitation_previous_day2"
+        ],
+        "n": 10,
+        "examples": [
+          "False",
+          "False",
+          "False",
+          "False",
+          "False"
+        ]
+      }
+    ],
+    "warnings": [],
+    "stats": {
+      "rows": 8712,
+      "start": "2025-10-02 00:00:00+00:00",
+      "end": "2026-09-29 23:00:00+00:00"
+    }
+  },
+  "chunks": [
+    {
+      "start_date": "2025-10-02",
+      "end_date": "2025-12-31",
+      "latitude": 58.94552,
+      "longitude": 13.116591,
+      "elevation": 43.0,
+      "generationtime_ms": 10356.629371643066,
+      "utc_offset_seconds": 0
+    },
+    {
+      "start_date": "2026-01-01",
+      "end_date": "2026-09-29",
+      "latitude": 58.94552,
+      "longitude": 13.116591,
+      "elevation": 43.0,
+      "generationtime_ms": 19683.01558494568,
+      "utc_offset_seconds": 0
+    }
+  ],
+  "location": {
+    "name": "se3_vanern",
+    "lat": 58.9,
+    "lon": 13.3,
+    "role": "wind"
+  },
+  "weather_source": "open-meteo:previous_runs:ecmwf_ifs",
+  "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)"
+}

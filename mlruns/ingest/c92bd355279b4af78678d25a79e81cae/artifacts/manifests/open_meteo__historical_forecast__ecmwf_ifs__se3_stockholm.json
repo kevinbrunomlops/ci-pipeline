@@ -1,0 +1,124 @@
+{
+  "source": "open_meteo",
+  "dataset": "historical_forecast__ecmwf_ifs",
+  "key": "se3_stockholm",
+  "endpoint": "https://historical-forecast-api.open-meteo.com/v1/forecast",
+  "query": {
+    "latitude": 59.33,
+    "longitude": 18.07,
+    "hourly": "temperature_2m,wind_speed_10m,wind_speed_100m,wind_direction_100m,cloud_cover,shortwave_radiation,precipitation,snowfall",
+    "models": "ecmwf_ifs",
+    "timezone": "GMT",
+    "timeformat": "unixtime",
+    "wind_speed_unit": "ms",
+    "start_date": "2021-01-01",
+    "end_date": "2026-09-29",
+    "url": "https://historical-forecast-api.open-meteo.com/v1/forecast"
+  },
+  "requested_start": "2021-01-01T00:00:00+00:00",
+  "requested_end": "2026-09-30T00:00:00+00:00",
+  "pulled_at": "2026-09-30T21:16:42+00:00",
+  "row_count": 50352,
+  "columns": [
+    "timestamp",
+    "temperature_2m",
+    "wind_speed_10m",
+    "wind_speed_100m",
+    "wind_direction_100m",
+    "cloud_cover",
+    "shortwave_radiation",
+    "precipitation",
+    "snowfall"
+  ],
+  "data_start": "2021-01-01T00:00:00+00:00",
+  "data_end": "2026-09-29T23:00:00+00:00",
+  "content_sha256": "5b1b69af81bfd1c331f36eb31041913a38bac1bed56abbbd2ec705343a9497e3",
+  "data_sha256": "6658accc8be8e18bf9f7575766e6849638aa31333db6250557dcb3fbc6f8a36f",
+  "git_sha": "unknown",
+  "git_dirty": true,
+  "library_versions": {
+    "pricefc": "0.1.0",
+    "pandas": "3.0.6",
+    "pyarrow": "25.0.1",
+    "numpy": "2.5.3",
+    "requests": "2.34.2",
+    "entsoe-py": "0.8.1",
+    "pandera": "0.33.1"
+  },
+  "validation": {
+    "passed": true,
+    "n_errors": 0,
+    "n_warnings": 0,
+    "errors": [],
+    "warnings": [],
+    "stats": {
+      "rows": 50352,
+      "start": "2021-01-01 00:00:00+00:00",
+      "end": "2026-09-29 23:00:00+00:00"
+    }
+  },
+  "chunks": [
+    {
+      "start_date": "2021-01-01",
+      "end_date": "2021-12-31",
+      "latitude": 59.36731,
+      "longitude": 18.0,
+      "elevation": 18.0,
+      "generationtime_ms": 369.8042631149292,
+      "utc_offset_seconds": 0
+    },
+    {
+      "start_date": "2022-01-01",
+      "end_date": "2022-12-31",
+      "latitude": 59.36731,
+      "longitude": 18.0,
+      "elevation": 18.0,
+      "generationtime_ms": 46.004652976989746,
+      "utc_offset_seconds": 0
+    },
+    {
+      "start_date": "2023-01-01",
+      "end_date": "2023-12-31",
+      "latitude": 59.36731,
+      "longitude": 18.0,
+      "elevation": 18.0,
+      "generationtime_ms": 7134.527325630188,
+      "utc_offset_seconds": 0
+    },
+    {
+      "start_date": "2024-01-01",
+      "end_date": "2024-12-31",
+      "latitude": 59.36731,
+      "longitude": 18.0,
+      "elevation": 18.0,
+      "generationtime_ms": 5678.217530250549,
+      "utc_offset_seconds": 0
+    },
+    {
+      "start_date": "2025-01-01",
+      "end_date": "2025-12-31",
+      "latitude": 59.36731,
+      "longitude": 18.0,
+      "elevation": 18.0,
+      "generationtime_ms": 6123.08406829834,
+      "utc_offset_seconds": 0
+    },
+    {
+      "start_date": "2026-01-01",
+      "end_date": "2026-09-29",
+      "latitude": 59.36731,
+      "longitude": 18.0,
+      "elevation": 18.0,
+      "generationtime_ms": 549.9098300933838,
+      "utc_offset_seconds": 0
+    }
+  ],
+  "location": {
+    "name": "se3_stockholm",
+    "lat": 59.33,
+    "lon": 18.07,
+    "role": "demand"
+  },
+  "weather_source": "open-meteo:historical_forecast:ecmwf_ifs",
+  "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)"
+}

@@ -1,0 +1,124 @@
+{
+  "source": "open_meteo",
+  "dataset": "historical_forecast__ecmwf_ifs",
+  "key": "se1_kiruna",
+  "endpoint": "https://historical-forecast-api.open-meteo.com/v1/forecast",
+  "query": {
+    "latitude": 67.86,
+    "longitude": 20.23,
+    "hourly": "temperature_2m,wind_speed_10m,wind_speed_100m,wind_direction_100m,cloud_cover,shortwave_radiation,precipitation,snowfall",
+    "models": "ecmwf_ifs",
+    "timezone": "GMT",
+    "timeformat": "unixtime",
+    "wind_speed_unit": "ms",
+    "start_date": "2021-01-01",
+    "end_date": "2026-09-29",
+    "url": "https://historical-forecast-api.open-meteo.com/v1/forecast"
+  },
+  "requested_start": "2021-01-01T00:00:00+00:00",
+  "requested_end": "2026-09-30T00:00:00+00:00",
+  "pulled_at": "2026-09-30T21:46:43+00:00",
+  "row_count": 50352,
+  "columns": [
+    "timestamp",
+    "temperature_2m",
+    "wind_speed_10m",
+    "wind_speed_100m",
+    "wind_direction_100m",
+    "cloud_cover",
+    "shortwave_radiation",
+    "precipitation",
+    "snowfall"
+  ],
+  "data_start": "2021-01-01T00:00:00+00:00",
+  "data_end": "2026-09-29T23:00:00+00:00",
+  "content_sha256": "48e357c1ca9e277dc472b3641be1d7ac836f92dec30b6c3124bbb0ce03c63363",
+  "data_sha256": "1afdb514cd6d7e22c97067ebc4fdcbc3d70093111306c6c17ff8629417d2fa28",
+  "git_sha": "fcef0916248630ac60c8339c6f47c1b36e29c980",
+  "git_dirty": true,
+  "library_versions": {
+    "pricefc": "0.1.0",
+    "pandas": "3.0.6",
+    "pyarrow": "25.0.1",
+    "numpy": "2.5.3",
+    "requests": "2.34.2",
+    "entsoe-py": "0.8.1",
+    "pandera": "0.33.1"
+  },
+  "validation": {
+    "passed": true,
+    "n_errors": 0,
+    "n_warnings": 0,
+    "errors": [],
+    "warnings": [],
+    "stats": {
+      "rows": 50352,
+      "start": "2021-01-01 00:00:00+00:00",
+      "end": "2026-09-29 23:00:00+00:00"
+    }
+  },
+  "chunks": [
+    {
+      "start_date": "2021-01-01",
+      "end_date": "2021-12-31",
+      "latitude": 67.80316,
+      "longitude": 20.25,
+      "elevation": 558.0,
+      "generationtime_ms": 575.5236148834229,
+      "utc_offset_seconds": 0
+    },
+    {
+      "start_date": "2022-01-01",
+      "end_date": "2022-12-31",
+      "latitude": 67.80316,
+      "longitude": 20.25,
+      "elevation": 558.0,
+      "generationtime_ms": 543.4796810150146,
+      "utc_offset_seconds": 0
+    },
+    {
+      "start_date": "2023-01-01",
+      "end_date": "2023-12-31",
+      "latitude": 67.80316,
+      "longitude": 20.25,
+      "elevation": 558.0,
+      "generationtime_ms": 3292.9919958114624,
+      "utc_offset_seconds": 0
+    },
+    {
+      "start_date": "2024-01-01",
+      "end_date": "2024-12-31",
+      "latitude": 67.80316,
+      "longitude": 20.25,
+      "elevation": 558.0,
+      "generationtime_ms": 2652.6440382003784,
+      "utc_offset_seconds": 0
+    },
+    {
+      "start_date": "2025-01-01",
+      "end_date": "2025-12-31",
+      "latitude": 67.80316,
+      "longitude": 20.25,
+      "elevation": 558.0,
+      "generationtime_ms": 1833.6045742034912,
+      "utc_offset_seconds": 0
+    },
+    {
+      "start_date": "2026-01-01",
+      "end_date": "2026-09-29",
+      "latitude": 67.80316,
+      "longitude": 20.25,
+      "elevation": 558.0,
+      "generationtime_ms": 1462.84818649292,
+      "utc_offset_seconds": 0
+    }
+  ],
+  "location": {
+    "name": "se1_kiruna",
+    "lat": 67.86,
+    "lon": 20.23,
+    "role": "demand"
+  },
+  "weather_source": "open-meteo:historical_forecast:ecmwf_ifs",
+  "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)"
+}

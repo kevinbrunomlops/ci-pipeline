@@ -1,0 +1,77 @@
+{
+  "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)",
+  "chunks": [
+    {
+      "elevation": 320.0,
+      "generationtime_ms": 5.894064903259277,
+      "latitude": 63.163445,
+      "longitude": 14.689118,
+      "utc_offset_seconds": 0
+    }
+  ],
+  "columns": [
+    "timestamp",
+    "temperature_2m",
+    "wind_speed_10m",
+    "wind_speed_100m",
+    "wind_direction_100m",
+    "cloud_cover",
+    "shortwave_radiation",
+    "precipitation",
+    "snowfall"
+  ],
+  "content_sha256": "57d18541b40bb14067ad92e959fc405fe63fba7da40a9fb09a111e921da37f9e",
+  "data_end": "2026-10-02T23:00:00+00:00",
+  "data_sha256": "2058bacff8f401ae0de3618c8f474ca7683dc411303f8e14856a36f398519bbc",
+  "data_start": "2026-09-30T00:00:00+00:00",
+  "dataset": "forecast__ecmwf_ifs",
+  "endpoint": "https://api.open-meteo.com/v1/forecast",
+  "git_dirty": false,
+  "git_sha": "b5319e24dcf932a0feb4bedd1f82b22db27898e7",
+  "key": "se2_ostersund",
+  "library_versions": {
+    "entsoe-py": "0.8.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "pandera": "0.33.1",
+    "pricefc": "0.1.0",
+    "pyarrow": "25.0.1",
+    "requests": "2.34.2"
+  },
+  "location": {
+    "lat": 63.18,
+    "lon": 14.64,
+    "name": "se2_ostersund",
+    "role": "wind"
+  },
+  "pulled_at": "2026-09-30T21:55:33+00:00",
+  "query": {
+    "forecast_days": 3,
+    "hourly": "temperature_2m,wind_speed_10m,wind_speed_100m,wind_direction_100m,cloud_cover,shortwave_radiation,precipitation,snowfall",
+    "latitude": 63.18,
+    "longitude": 14.64,
+    "models": "ecmwf_ifs",
+    "past_days": 0,
+    "timeformat": "unixtime",
+    "timezone": "GMT",
+    "url": "https://api.open-meteo.com/v1/forecast",
+    "wind_speed_unit": "ms"
+  },
+  "requested_end": "2026-10-03T00:00:00+00:00",
+  "requested_start": "2026-09-30T00:00:00+00:00",
+  "row_count": 72,
+  "source": "open_meteo",
+  "validation": {
+    "errors": [],
+    "n_errors": 0,
+    "n_warnings": 0,
+    "passed": true,
+    "stats": {
+      "end": "2026-10-02 23:00:00+00:00",
+      "rows": 72,
+      "start": "2026-09-30 00:00:00+00:00"
+    },
+    "warnings": []
+  },
+  "weather_source": "open-meteo:forecast:ecmwf_ifs"
+}

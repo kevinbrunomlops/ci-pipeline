@@ -1,0 +1,119 @@
+{
+  "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)",
+  "chunks": [
+    {
+      "elevation": 16.0,
+      "end_date": "2025-12-31",
+      "generationtime_ms": 7379.291415214539,
+      "latitude": 63.79613,
+      "longitude": 20.291777,
+      "start_date": "2025-10-02",
+      "utc_offset_seconds": 0
+    },
+    {
+      "elevation": 16.0,
+      "end_date": "2026-09-29",
+      "generationtime_ms": 17318.15230846405,
+      "latitude": 63.79613,
+      "longitude": 20.291777,
+      "start_date": "2026-01-01",
+      "utc_offset_seconds": 0
+    }
+  ],
+  "columns": [
+    "timestamp",
+    "temperature_2m_previous_day1",
+    "wind_speed_10m_previous_day1",
+    "wind_speed_100m_previous_day1",
+    "wind_direction_100m_previous_day1",
+    "cloud_cover_previous_day1",
+    "shortwave_radiation_previous_day1",
+    "precipitation_previous_day1",
+    "snowfall_previous_day1",
+    "temperature_2m_previous_day2",
+    "wind_speed_10m_previous_day2",
+    "wind_speed_100m_previous_day2",
+    "wind_direction_100m_previous_day2",
+    "cloud_cover_previous_day2",
+    "shortwave_radiation_previous_day2",
+    "precipitation_previous_day2",
+    "snowfall_previous_day2"
+  ],
+  "content_sha256": "ca2da4331c6c0a7ab1d6a405ee5795d320d74e53b4f104cfba7dac282b7fd4f5",
+  "data_end": "2026-09-29T23:00:00+00:00",
+  "data_sha256": "1f2b1b8da50ad54ae67429640cee16e919aac6ea2ab845fc1060504d1cfe84b9",
+  "data_start": "2025-10-02T00:00:00+00:00",
+  "dataset": "previous_runs__ecmwf_ifs",
+  "endpoint": "https://previous-runs-api.open-meteo.com/v1/forecast",
+  "git_dirty": false,
+  "git_sha": "b5319e24dcf932a0feb4bedd1f82b22db27898e7",
+  "key": "se2_umea",
+  "library_versions": {
+    "entsoe-py": "0.8.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "pandera": "0.33.1",
+    "pricefc": "0.1.0",
+    "pyarrow": "25.0.1",
+    "requests": "2.34.2"
+  },
+  "location": {
+    "lat": 63.83,
+    "lon": 20.26,
+    "name": "se2_umea",
+    "role": "demand"
+  },
+  "pulled_at": "2026-09-30T21:52:44+00:00",
+  "query": {
+    "end_date": "2026-09-29",
+    "hourly": "temperature_2m_previous_day1,wind_speed_10m_previous_day1,wind_speed_100m_previous_day1,wind_direction_100m_previous_day1,cloud_cover_previous_day1,shortwave_radiation_previous_day1,precipitation_previous_day1,snowfall_previous_day1,temperature_2m_previous_day2,wind_speed_10m_previous_day2,wind_speed_100m_previous_day2,wind_direction_100m_previous_day2,cloud_cover_previous_day2,shortwave_radiation_previous_day2,precipitation_previous_day2,snowfall_previous_day2",
+    "latitude": 63.83,
+    "longitude": 20.26,
+    "models": "ecmwf_ifs",
+    "start_date": "2025-10-02",
+    "timeformat": "unixtime",
+    "timezone": "GMT",
+    "url": "https://previous-runs-api.open-meteo.com/v1/forecast",
+    "wind_speed_unit": "ms"
+  },
+  "requested_end": "2026-09-30T00:00:00+00:00",
+  "requested_start": "2025-10-02T00:00:00+00:00",
+  "row_count": 8712,
+  "source": "open_meteo",
+  "validation": {
+    "errors": [
+      {
+        "check": "greater_than_or_equal_to(0)",
+        "columns": [
+          "shortwave_radiation_previous_day2"
+        ],
+        "examples": [
+          "-1.0"
+        ],
+        "n": 1
+      }
+    ],
+    "n_errors": 1,
+    "n_warnings": 0,
+    "passed": false,
+    "stats": {
+      "end": "2026-09-29 23:00:00+00:00",
+      "null_counts": {
+        "precipitation_previous_day2": 263,
+        "snowfall_previous_day1": 366,
+        "temperature_2m_previous_day1": 366,
+        "temperature_2m_previous_day2": 390,
+        "wind_direction_100m_previous_day1": 628,
+        "wind_direction_100m_previous_day2": 262,
+        "wind_speed_100m_previous_day1": 629,
+        "wind_speed_100m_previous_day2": 263,
+        "wind_speed_10m_previous_day1": 263,
+        "wind_speed_10m_previous_day2": 390
+      },
+      "rows": 8712,
+      "start": "2025-10-02 00:00:00+00:00"
+    },
+    "warnings": []
+  },
+  "weather_source": "open-meteo:previous_runs:ecmwf_ifs"
+}

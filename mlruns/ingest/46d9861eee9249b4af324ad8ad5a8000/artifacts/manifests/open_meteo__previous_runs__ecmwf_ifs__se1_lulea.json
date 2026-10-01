@@ -1,0 +1,108 @@
+{
+  "source": "open_meteo",
+  "dataset": "previous_runs__ecmwf_ifs",
+  "key": "se1_lulea",
+  "endpoint": "https://previous-runs-api.open-meteo.com/v1/forecast",
+  "query": {
+    "latitude": 65.58,
+    "longitude": 22.15,
+    "hourly": "temperature_2m_previous_day1,wind_speed_10m_previous_day1,wind_speed_100m_previous_day1,wind_direction_100m_previous_day1,cloud_cover_previous_day1,shortwave_radiation_previous_day1,precipitation_previous_day1,snowfall_previous_day1,temperature_2m_previous_day2,wind_speed_10m_previous_day2,wind_speed_100m_previous_day2,wind_direction_100m_previous_day2,cloud_cover_previous_day2,shortwave_radiation_previous_day2,precipitation_previous_day2,snowfall_previous_day2",
+    "models": "ecmwf_ifs",
+    "timezone": "GMT",
+    "timeformat": "unixtime",
+    "wind_speed_unit": "ms",
+    "start_date": "2025-10-02",
+    "end_date": "2026-09-29",
+    "url": "https://previous-runs-api.open-meteo.com/v1/forecast"
+  },
+  "requested_start": "2025-10-02T00:00:00+00:00",
+  "requested_end": "2026-09-30T00:00:00+00:00",
+  "pulled_at": "2026-09-30T21:50:27+00:00",
+  "row_count": 8712,
+  "columns": [
+    "timestamp",
+    "temperature_2m_previous_day1",
+    "wind_speed_10m_previous_day1",
+    "wind_speed_100m_previous_day1",
+    "wind_direction_100m_previous_day1",
+    "cloud_cover_previous_day1",
+    "shortwave_radiation_previous_day1",
+    "precipitation_previous_day1",
+    "snowfall_previous_day1",
+    "temperature_2m_previous_day2",
+    "wind_speed_10m_previous_day2",
+    "wind_speed_100m_previous_day2",
+    "wind_direction_100m_previous_day2",
+    "cloud_cover_previous_day2",
+    "shortwave_radiation_previous_day2",
+    "precipitation_previous_day2",
+    "snowfall_previous_day2"
+  ],
+  "data_start": "2025-10-02T00:00:00+00:00",
+  "data_end": "2026-09-29T23:00:00+00:00",
+  "content_sha256": "565aace597f764cd60c6dcb4a157f5b7a057aa3de48a6009fba717c5cf68bf23",
+  "data_sha256": "b35409c8dc38fa8d92711150106e62280ee86c522094e9f0a6ae46447e3f278e",
+  "git_sha": "b5319e24dcf932a0feb4bedd1f82b22db27898e7",
+  "git_dirty": false,
+  "library_versions": {
+    "pricefc": "0.1.0",
+    "pandas": "3.0.6",
+    "pyarrow": "25.0.1",
+    "numpy": "2.5.3",
+    "requests": "2.34.2",
+    "entsoe-py": "0.8.1",
+    "pandera": "0.33.1"
+  },
+  "validation": {
+    "passed": true,
+    "n_errors": 0,
+    "n_warnings": 0,
+    "errors": [],
+    "warnings": [],
+    "stats": {
+      "rows": 8712,
+      "start": "2025-10-02 00:00:00+00:00",
+      "end": "2026-09-29 23:00:00+00:00",
+      "null_counts": {
+        "temperature_2m_previous_day1": 366,
+        "wind_speed_10m_previous_day1": 263,
+        "wind_speed_100m_previous_day1": 629,
+        "wind_direction_100m_previous_day1": 626,
+        "snowfall_previous_day1": 366,
+        "temperature_2m_previous_day2": 390,
+        "wind_speed_10m_previous_day2": 390,
+        "wind_speed_100m_previous_day2": 263,
+        "wind_direction_100m_previous_day2": 261,
+        "precipitation_previous_day2": 263
+      }
+    }
+  },
+  "chunks": [
+    {
+      "start_date": "2025-10-02",
+      "end_date": "2025-12-31",
+      "latitude": 65.553604,
+      "longitude": 22.244318,
+      "elevation": 6.0,
+      "generationtime_ms": 6105.228781700134,
+      "utc_offset_seconds": 0
+    },
+    {
+      "start_date": "2026-01-01",
+      "end_date": "2026-09-29",
+      "latitude": 65.553604,
+      "longitude": 22.244318,
+      "elevation": 6.0,
+      "generationtime_ms": 16017.919659614563,
+      "utc_offset_seconds": 0
+    }
+  ],
+  "location": {
+    "name": "se1_lulea",
+    "lat": 65.58,
+    "lon": 22.15,
+    "role": "demand"
+  },
+  "weather_source": "open-meteo:previous_runs:ecmwf_ifs",
+  "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)"
+}

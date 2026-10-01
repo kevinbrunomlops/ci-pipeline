@@ -1,0 +1,19 @@
+{
+  "dataset": "day_ahead_prices",
+  "passed": true,
+  "errors": [],
+  "warnings": [
+    {
+      "check": "warning",
+      "message": "Column 'price_eur_mwh' failed element-wise validator number 3: greater_than_or_equal_to(0.0) failure cases: -0.24, -0.26, -0.26, -0.34, -0.96, -1.01, -1.28, -1.55, -1.25, -1.24, -1.12, -1.4, -1.68, -1.32, -1.1, -0.15"
+    }
+  ],
+  "stats": {
+    "rows": 2880,
+    "start": "2026-08-31 22:00:00+00:00",
+    "end": "2026-09-30 21:45:00+00:00",
+    "resolution_counts": {
+      "PT15M": 2880
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "attribution": "Electricity prices from elprisetjustnu.se",
+  "chunks": [
+    {
+      "days_requested": 31,
+      "missing_days": [],
+      "time_end_anomalies": []
+    }
+  ],
+  "columns": [
+    "timestamp",
+    "price_eur_mwh",
+    "resolution",
+    "sek_per_kwh",
+    "eur_per_kwh",
+    "exr",
+    "time_start_local",
+    "time_end_local"
+  ],
+  "content_sha256": "cdbc786ed477ffc12b4b69ba4fa4056aba08690eb00e795510f8a9f662611ccf",
+  "data_end": "2026-03-31T21:45:00+00:00",
+  "data_sha256": "c62fc272f7e061d9569a4f850c2d90e5703a0508e748b9bda2cbf0ddf3175a66",
+  "data_start": "2026-02-28T23:00:00+00:00",
+  "dataset": "day_ahead_prices",
+  "endpoint": "https://www.elprisetjustnu.se/api/v1/prices/{year}/{month_day}_{zone}.json",
+  "git_dirty": false,
+  "git_sha": "36d53396942c0a5e56429decbdef7b2b8c4bb30c",
+  "key": "SE2",
+  "library_versions": {
+    "entsoe-py": "0.8.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "pandera": "0.33.1",
+    "pricefc": "0.1.0",
+    "pyarrow": "25.0.1",
+    "requests": "2.34.2"
+  },
+  "price_basis": "excl. VAT, surcharges and taxes",
+  "price_source": "elprisetjustnu",
+  "pulled_at": "2026-09-30T22:29:57+00:00",
+  "query": {
+    "first_day": "2026-03-01",
+    "last_day": "2026-03-31",
+    "url_template": "https://www.elprisetjustnu.se/api/v1/prices/{year}/{month_day}_{zone}.json",
+    "zone": "SE2"
+  },
+  "requested_end": "2026-03-31T22:00:00+00:00",
+  "requested_start": "2026-02-28T23:00:00+00:00",
+  "row_count": 2972,
+  "source": "elprisetjustnu",
+  "validation": {
+    "errors": [],
+    "n_errors": 0,
+    "n_warnings": 1,
+    "passed": true,
+    "stats": {
+      "end": "2026-03-31 21:45:00+00:00",
+      "resolution_counts": {
+        "PT15M": 2972
+      },
+      "rows": 2972,
+      "start": "2026-02-28 23:00:00+00:00"
+    },
+    "warnings": [
+      {
+        "check": "warning",
+        "message": "Column 'price_eur_mwh' failed element-wise validator number 3: greater_than_or_equal_to(0.0) failure cases: -0.33, -0.68, -0.89, -0.93, -0.93, -0.97, -1.23, -2.0, -1.1, -1.13, -1.23, -1.67, -0.94, -1.23, -1.38, -2.01, -2.01, -2.01, -2.01, -2.01, -0.93, -0.92, -0.89, -0.72, -0.03, -0.92, -0.93, -1.13, -0.94, -0.95"
+      }
+    ]
+  }
+}

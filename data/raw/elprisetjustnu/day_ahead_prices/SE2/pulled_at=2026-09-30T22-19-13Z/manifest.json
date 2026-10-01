@@ -1,0 +1,100 @@
+{
+  "attribution": "Electricity prices from elprisetjustnu.se",
+  "chunks": [
+    {
+      "days_requested": 30,
+      "missing_days": [],
+      "time_end_anomalies": []
+    }
+  ],
+  "columns": [
+    "timestamp",
+    "price_eur_mwh",
+    "resolution",
+    "sek_per_kwh",
+    "eur_per_kwh",
+    "exr",
+    "time_start_local",
+    "time_end_local"
+  ],
+  "content_sha256": "1490c67147989e67ef483405d176fcf4c5df909be26c9295cd12eaee8c1fdf73",
+  "data_end": "2022-09-30T21:00:00+00:00",
+  "data_sha256": "0c2b11074cf277caeb632854b1d2921f446cf70dc6a8c37a3442c3e4e86d63ca",
+  "data_start": "2022-08-31T22:00:00+00:00",
+  "dataset": "day_ahead_prices",
+  "endpoint": "https://www.elprisetjustnu.se/api/v1/prices/{year}/{month_day}_{zone}.json",
+  "git_dirty": false,
+  "git_sha": "36d53396942c0a5e56429decbdef7b2b8c4bb30c",
+  "key": "SE2",
+  "library_versions": {
+    "entsoe-py": "0.8.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "pandera": "0.33.1",
+    "pricefc": "0.1.0",
+    "pyarrow": "25.0.1",
+    "requests": "2.34.2"
+  },
+  "price_basis": "excl. VAT, surcharges and taxes",
+  "price_source": "elprisetjustnu",
+  "pulled_at": "2026-09-30T22:19:13+00:00",
+  "query": {
+    "first_day": "2022-09-01",
+    "last_day": "2022-09-30",
+    "url_template": "https://www.elprisetjustnu.se/api/v1/prices/{year}/{month_day}_{zone}.json",
+    "zone": "SE2"
+  },
+  "requested_end": "2022-09-30T22:00:00+00:00",
+  "requested_start": "2022-08-31T22:00:00+00:00",
+  "row_count": 717,
+  "source": "elprisetjustnu",
+  "validation": {
+    "errors": [
+      {
+        "check": "max_gap",
+        "gap": "0 days 02:00:00",
+        "gap_end": "2022-09-04T22:00:00+00:00"
+      },
+      {
+        "check": "max_gap",
+        "gap": "0 days 02:00:00",
+        "gap_end": "2022-09-10T22:00:00+00:00"
+      },
+      {
+        "check": "max_gap",
+        "gap": "0 days 02:00:00",
+        "gap_end": "2022-09-15T22:00:00+00:00"
+      },
+      {
+        "check": "day_count",
+        "day": "2022-09-04",
+        "expected": 24,
+        "got": 23
+      },
+      {
+        "check": "day_count",
+        "day": "2022-09-10",
+        "expected": 24,
+        "got": 23
+      },
+      {
+        "check": "day_count",
+        "day": "2022-09-15",
+        "expected": 24,
+        "got": 23
+      }
+    ],
+    "n_errors": 6,
+    "n_warnings": 0,
+    "passed": false,
+    "stats": {
+      "end": "2022-09-30 21:00:00+00:00",
+      "resolution_counts": {
+        "PT60M": 717
+      },
+      "rows": 717,
+      "start": "2022-08-31 22:00:00+00:00"
+    },
+    "warnings": []
+  }
+}

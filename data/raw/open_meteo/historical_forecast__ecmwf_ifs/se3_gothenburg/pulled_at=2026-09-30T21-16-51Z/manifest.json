@@ -1,0 +1,124 @@
+{
+  "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)",
+  "chunks": [
+    {
+      "elevation": 4.0,
+      "end_date": "2021-12-31",
+      "generationtime_ms": 54.98695373535156,
+      "latitude": 57.680138,
+      "longitude": 12.025863,
+      "start_date": "2021-01-01",
+      "utc_offset_seconds": 0
+    },
+    {
+      "elevation": 4.0,
+      "end_date": "2022-12-31",
+      "generationtime_ms": 54.842591285705566,
+      "latitude": 57.680138,
+      "longitude": 12.025863,
+      "start_date": "2022-01-01",
+      "utc_offset_seconds": 0
+    },
+    {
+      "elevation": 4.0,
+      "end_date": "2023-12-31",
+      "generationtime_ms": 675.4515171051025,
+      "latitude": 57.680138,
+      "longitude": 12.025863,
+      "start_date": "2023-01-01",
+      "utc_offset_seconds": 0
+    },
+    {
+      "elevation": 4.0,
+      "end_date": "2024-12-31",
+      "generationtime_ms": 500.36120414733887,
+      "latitude": 57.680138,
+      "longitude": 12.025863,
+      "start_date": "2024-01-01",
+      "utc_offset_seconds": 0
+    },
+    {
+      "elevation": 4.0,
+      "end_date": "2025-12-31",
+      "generationtime_ms": 946.0960626602173,
+      "latitude": 57.680138,
+      "longitude": 12.025863,
+      "start_date": "2025-01-01",
+      "utc_offset_seconds": 0
+    },
+    {
+      "elevation": 4.0,
+      "end_date": "2026-09-29",
+      "generationtime_ms": 155.17652034759521,
+      "latitude": 57.680138,
+      "longitude": 12.025863,
+      "start_date": "2026-01-01",
+      "utc_offset_seconds": 0
+    }
+  ],
+  "columns": [
+    "timestamp",
+    "temperature_2m",
+    "wind_speed_10m",
+    "wind_speed_100m",
+    "wind_direction_100m",
+    "cloud_cover",
+    "shortwave_radiation",
+    "precipitation",
+    "snowfall"
+  ],
+  "content_sha256": "8b306a67cc1c628ae911d04ec37531a41dd61a10f23c9f67b7cc7cf495048c09",
+  "data_end": "2026-09-29T23:00:00+00:00",
+  "data_sha256": "51623d15555b950f28f0dc26cdae29f003d291883c4e3bd27aa006023cb43904",
+  "data_start": "2021-01-01T00:00:00+00:00",
+  "dataset": "historical_forecast__ecmwf_ifs",
+  "endpoint": "https://historical-forecast-api.open-meteo.com/v1/forecast",
+  "git_dirty": true,
+  "git_sha": "unknown",
+  "key": "se3_gothenburg",
+  "library_versions": {
+    "entsoe-py": "0.8.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "pandera": "0.33.1",
+    "pricefc": "0.1.0",
+    "pyarrow": "25.0.1",
+    "requests": "2.34.2"
+  },
+  "location": {
+    "lat": 57.71,
+    "lon": 11.97,
+    "name": "se3_gothenburg",
+    "role": "demand"
+  },
+  "pulled_at": "2026-09-30T21:16:51+00:00",
+  "query": {
+    "end_date": "2026-09-29",
+    "hourly": "temperature_2m,wind_speed_10m,wind_speed_100m,wind_direction_100m,cloud_cover,shortwave_radiation,precipitation,snowfall",
+    "latitude": 57.71,
+    "longitude": 11.97,
+    "models": "ecmwf_ifs",
+    "start_date": "2021-01-01",
+    "timeformat": "unixtime",
+    "timezone": "GMT",
+    "url": "https://historical-forecast-api.open-meteo.com/v1/forecast",
+    "wind_speed_unit": "ms"
+  },
+  "requested_end": "2026-09-30T00:00:00+00:00",
+  "requested_start": "2021-01-01T00:00:00+00:00",
+  "row_count": 50352,
+  "source": "open_meteo",
+  "validation": {
+    "errors": [],
+    "n_errors": 0,
+    "n_warnings": 0,
+    "passed": true,
+    "stats": {
+      "end": "2026-09-29 23:00:00+00:00",
+      "rows": 50352,
+      "start": "2021-01-01 00:00:00+00:00"
+    },
+    "warnings": []
+  },
+  "weather_source": "open-meteo:historical_forecast:ecmwf_ifs"
+}

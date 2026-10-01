@@ -1,0 +1,124 @@
+{
+  "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)",
+  "chunks": [
+    {
+      "elevation": 40.0,
+      "end_date": "2021-12-31",
+      "generationtime_ms": 21.006107330322266,
+      "latitude": 59.22671,
+      "longitude": 15.271493,
+      "start_date": "2021-01-01",
+      "utc_offset_seconds": 0
+    },
+    {
+      "elevation": 40.0,
+      "end_date": "2022-12-31",
+      "generationtime_ms": 12.762188911437988,
+      "latitude": 59.22671,
+      "longitude": 15.271493,
+      "start_date": "2022-01-01",
+      "utc_offset_seconds": 0
+    },
+    {
+      "elevation": 40.0,
+      "end_date": "2023-12-31",
+      "generationtime_ms": 88.61398696899414,
+      "latitude": 59.22671,
+      "longitude": 15.271493,
+      "start_date": "2023-01-01",
+      "utc_offset_seconds": 0
+    },
+    {
+      "elevation": 40.0,
+      "end_date": "2024-12-31",
+      "generationtime_ms": 80.40249347686768,
+      "latitude": 59.22671,
+      "longitude": 15.271493,
+      "start_date": "2024-01-01",
+      "utc_offset_seconds": 0
+    },
+    {
+      "elevation": 40.0,
+      "end_date": "2025-12-31",
+      "generationtime_ms": 83.47773551940918,
+      "latitude": 59.22671,
+      "longitude": 15.271493,
+      "start_date": "2025-01-01",
+      "utc_offset_seconds": 0
+    },
+    {
+      "elevation": 40.0,
+      "end_date": "2026-09-30",
+      "generationtime_ms": 50.80151557922363,
+      "latitude": 59.22671,
+      "longitude": 15.271493,
+      "start_date": "2026-01-01",
+      "utc_offset_seconds": 0
+    }
+  ],
+  "columns": [
+    "timestamp",
+    "temperature_2m",
+    "wind_speed_10m",
+    "wind_speed_100m",
+    "wind_direction_100m",
+    "cloud_cover",
+    "shortwave_radiation",
+    "precipitation",
+    "snowfall"
+  ],
+  "content_sha256": "aa8730d7bc9cb383bc5fc7be2ad0fa73ec157b0d7fd5ff449fdd733b0f7d3d20",
+  "data_end": "2026-09-30T23:00:00+00:00",
+  "data_sha256": "9d884851a3cb2324d1f1149ef4aada5aadb329c2264d6645bc2852455137b0e8",
+  "data_start": "2021-01-01T00:00:00+00:00",
+  "dataset": "historical_forecast__ecmwf_ifs",
+  "endpoint": "https://historical-forecast-api.open-meteo.com/v1/forecast",
+  "git_dirty": true,
+  "git_sha": "b7a20e825edce0d7ca9825a7fbcdd413154bb0f4",
+  "key": "se3_orebro",
+  "library_versions": {
+    "entsoe-py": "0.8.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "pandera": "0.33.1",
+    "pricefc": "0.1.0",
+    "pyarrow": "25.0.1",
+    "requests": "2.34.2"
+  },
+  "location": {
+    "lat": 59.27,
+    "lon": 15.21,
+    "name": "se3_orebro",
+    "role": "demand"
+  },
+  "pulled_at": "2026-10-01T10:53:23+00:00",
+  "query": {
+    "end_date": "2026-09-30",
+    "hourly": "temperature_2m,wind_speed_10m,wind_speed_100m,wind_direction_100m,cloud_cover,shortwave_radiation,precipitation,snowfall",
+    "latitude": 59.27,
+    "longitude": 15.21,
+    "models": "ecmwf_ifs",
+    "start_date": "2021-01-01",
+    "timeformat": "unixtime",
+    "timezone": "GMT",
+    "url": "https://historical-forecast-api.open-meteo.com/v1/forecast",
+    "wind_speed_unit": "ms"
+  },
+  "requested_end": "2026-10-01T00:00:00+00:00",
+  "requested_start": "2021-01-01T00:00:00+00:00",
+  "row_count": 50376,
+  "source": "open_meteo",
+  "validation": {
+    "errors": [],
+    "n_errors": 0,
+    "n_warnings": 0,
+    "passed": true,
+    "stats": {
+      "end": "2026-09-30 23:00:00+00:00",
+      "rows": 50376,
+      "start": "2021-01-01 00:00:00+00:00"
+    },
+    "warnings": []
+  },
+  "weather_source": "open-meteo:historical_forecast:ecmwf_ifs"
+}

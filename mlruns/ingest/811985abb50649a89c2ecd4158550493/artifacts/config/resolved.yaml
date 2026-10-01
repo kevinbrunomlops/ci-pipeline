@@ -1,0 +1,24 @@
+compute_env: local-mac
+history_start: '2021-01-01'
+mlflow:
+  artifact_root: mlruns
+  tracking_uri: sqlite:///mlflow.db
+origin:
+  local_time: 09:00:00
+paths:
+  data_root: data
+  datasets: data/datasets
+  raw: data/raw
+quantiles:
+- 0.05
+- 0.1
+- 0.25
+- 0.5
+- 0.75
+- 0.9
+- 0.95
+resolution: hourly
+seed: 42
+timezone: Europe/Stockholm
+zones:
+- SE3
