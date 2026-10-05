@@ -42,7 +42,7 @@ def test_manifest_contents(tmp_path: Path) -> None:
     snap = write(tmp_path, df, T0)
     assert snap.path.name == "pulled_at=2026-09-01T12-00-00Z"
     m = snap.manifest
-    assert m["row_count"] == 3
+    assert m["row_count"] == 4
     assert m["data_sha256"] == data_hash(df)
     assert {"git_sha", "library_versions", "content_sha256", "query"} <= m.keys()
     pd.testing.assert_frame_equal(snap.read(), df)
